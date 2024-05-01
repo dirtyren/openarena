@@ -14,8 +14,8 @@ clean:
 # Local Docker build / push
 build:
 	DOCKER_BUILDKIT=1
-	docker build --no-cache . --platform linux/amd64 -t ${NAME}/${NAME}:${VERSION}
+	docker build --no-cache . --platform linux/amd64 -t ${NAME}:${VERSION}
 
-push: build
-	docker tag ${NAME}/${NAME}:${VERSION} ${GLOBOARTIFACTORY}/${NAME}/${NAME}:${VERSION}
-	docker push ${GLOBOARTIFACTORY}/${NAME}/${NAME}:${VERSION}
+push: #build
+	docker tag ${NAME}:${VERSION} alessandroren/${NAME}:${VERSION}
+	docker push alessandroren/${NAME}:${VERSION}
