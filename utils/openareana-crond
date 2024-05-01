@@ -1,0 +1,2 @@
+0 8 * * *	root /home/openarena/openarena/restart.sh >/dev/null 2>/dev/null
+*/1 * * * *	root	/var/local/src/qstat.php localhost  >/dev/null 2>/dev/null

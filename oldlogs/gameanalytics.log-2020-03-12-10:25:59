@@ -1,0 +1,1847 @@
+ioq3+oa 1.36_SVN1910M linux-x86_64 Dec 25 2011
+----- FS_Startup -----
+Current search path:
+/home/openarena//.openarena/baseoa
+./baseoa/X3map05.pk3 (71 files)
+./baseoa/stchctf9a.pk3 (70 files)
+./baseoa/speedyctf.pk3 (73 files)
+./baseoa/Q3floGGer1.pk3 (114 files)
+./baseoa/q3ctfvoy.pk3 (89 files)
+./baseoa/ps9ctf.pk3 (11 files)
+./baseoa/ps5ctf.pk3 (11 files)
+./baseoa/ps37ctf3.pk3 (11 files)
+./baseoa/pak6-patch088.pk3 (711 files)
+./baseoa/pak6-patch085.pk3 (559 files)
+./baseoa/pak6-misc.pk3 (229 files)
+./baseoa/pak5-TA.pk3 (139 files)
+./baseoa/pak4-textures.pk3 (1753 files)
+./baseoa/pak2-players.pk3 (669 files)
+./baseoa/pak2-players-mature.pk3 (231 files)
+./baseoa/pak1-maps.pk3 (100 files)
+./baseoa/pak0.pk3 (1042 files)
+./baseoa/map_cpmctf2.pk3 (57 files)
+./baseoa/LetGo_q3a.pk3 (71 files)
+./baseoa/hctf3.pk3 (43 files)
+./baseoa/hal_palindrome.pk3 (76 files)
+./baseoa/ctf_spunky1.pk3 (22 files)
+./baseoa/ctctf.pk3 (251 files)
+./baseoa/ColdWarCTF.pk3 (101 files)
+./baseoa/bubctf1.pk3 (72 files)
+./baseoa/brickyard.pk3 (90 files)
+./baseoa/17+ctf.pk3 (72 files)
+./baseoa
+
+----------------------
+6738 files in pk3 files
+execing default.cfg
+execing q3config_server.cfg
+couldn't exec autoexec.cfg
+Hunk_Clear: reset the hunk ok
+--- Common Initialization Complete ---
+IP: 127.0.0.1
+IP: 192.168.10.10
+IP6: ::1
+IP6: fe80::f455:95ff:fe7a:1dfb%eth0
+Opening IP socket: 0.0.0.0:27961
+tty console mode disabled
+execing serverdm.cfg
+g_gametype will be changed upon restarting.
+------ Server Initialization ------
+logfile opened on Thu Mar 12 01:00:05 2020
+
+Server: speedyctf
+Hunk_Clear: reset the hunk ok
+----- FS_Startup -----
+Current search path:
+/home/openarena//.openarena/baseoa
+./baseoa/X3map05.pk3 (71 files)
+./baseoa/stchctf9a.pk3 (70 files)
+./baseoa/speedyctf.pk3 (73 files)
+./baseoa/Q3floGGer1.pk3 (114 files)
+./baseoa/q3ctfvoy.pk3 (89 files)
+./baseoa/ps9ctf.pk3 (11 files)
+./baseoa/ps5ctf.pk3 (11 files)
+./baseoa/ps37ctf3.pk3 (11 files)
+./baseoa/pak6-patch088.pk3 (711 files)
+./baseoa/pak6-patch085.pk3 (559 files)
+./baseoa/pak6-misc.pk3 (229 files)
+./baseoa/pak5-TA.pk3 (139 files)
+./baseoa/pak4-textures.pk3 (1753 files)
+./baseoa/pak2-players.pk3 (669 files)
+./baseoa/pak2-players-mature.pk3 (231 files)
+./baseoa/pak1-maps.pk3 (100 files)
+./baseoa/pak0.pk3 (1042 files)
+./baseoa/map_cpmctf2.pk3 (57 files)
+./baseoa/LetGo_q3a.pk3 (71 files)
+./baseoa/hctf3.pk3 (43 files)
+./baseoa/hal_palindrome.pk3 (76 files)
+./baseoa/ctf_spunky1.pk3 (22 files)
+./baseoa/ctctf.pk3 (251 files)
+./baseoa/ColdWarCTF.pk3 (101 files)
+./baseoa/bubctf1.pk3 (72 files)
+./baseoa/brickyard.pk3 (90 files)
+./baseoa/17+ctf.pk3 (72 files)
+./baseoa
+
+handle 1: qconsole.log
+----------------------
+6738 files in pk3 files
+Loading vm file vm/qagame.qvm...
+File "vm/qagame.qvm" found in "./baseoa/pak6-patch088.pk3"
+...which has vmMagic VM_MAGIC_VER2
+Loading 1590 jump table targets
+VM file qagame compiled to 3770207 bytes of code (0x7f988312a000 - 0x7f98834c275f)
+compilation took 2.580984 seconds
+qagame loaded in 3012256 bytes on the hunk
+------- Game Initialization -------
+gamename: baseoa
+gamedate: Jan 28 2012
+------------------------------------------------------------
+InitGame: \g_gametype\10\dmflags\0\fraglimit\5\timelimit\10\sv_privateClients\0\sv_hostname\OpServices OpenArena DM Server\sv_maxclients\20\sv_minRate\0\sv_maxRate\222000\sv_minPing\0\sv_maxPing\400\sv_floodProtect\1\sv_allowDownload\1\sv_master1\dpmaster.deathmask.net\capturelimit\5\g_delagHitscan\1\g_needpass\0\g_allowvote\0\g_instantgib\1\g_maxGameClients\0\videoflags\7\g_doWarmup\0\g_voteGametypes\/0/1/3/4/5/6/7/8/9/10/11/12/\g_voteMaxTimelimit\1000\g_voteMinTimelimit\0\g_voteMaxFraglimit\0\g_voteMinFraglimit\0\elimination_roundtime\120\g_lms_mode\0\version\ioq3+oa 1.36_SVN1910M linux-x86_64 Dec 25 2011\protocol\71\mapname\speedyctf\.Admin\Any people who work's on Opservices\.email\webmaster@opservices.com\.www\http://ns3.opservices.com/ren/openarena.tgz\gamename\baseoa\elimflags\0\voteflags\0\g_obeliskRespawnDelay\10\g_enableDust\0\g_enableBreath\0\g_rockets\0\g_altExcellent\0\g_timestamp\2020-03-12 01:00:08
+Info: ServerInfo length: 916 of 1024
+Gametype changed, clearing session data.
+^3!readconfig: ^7could not open admin config file admin.dat
+Sprees/Kills: loaded 1 killing sprees, 0 death sprees, and 0 multikills.
+0 teams with 0 entities
+1 items registered
+-----------------------------------
+-----------------------------------
+Resolving dpmaster.deathmask.net (IPv4)
+dpmaster.deathmask.net resolved to 107.161.23.68:27950
+Sending heartbeat to dpmaster.deathmask.net
+Hitch warning: 2905 msec frame time
+Sending heartbeat to dpmaster.deathmask.net
+broadcast: print "Timelimit hit.\n"
+Exit: Timelimit hit.
+Sending heartbeat to dpmaster.deathmask.net
+Mapname in mappool: dm6ish
+Mapname in mappool: oa_dm7
+Mapname in mappool: ce1m7
+Mapname in mappool: oa_koth2
+Mapname in mappool: sleekgrinder
+Mapname in mappool: oa_shouse
+Mapname in mappool: czest1tourney
+Mapname in mappool: hctf1
+Mapname in mappool: speedyctf
+Mapname in mappool: aggressor
+Mapname in mappool: oasago2
+Mapname in mappool: pxlfan
+Mapname in mappool: bubctf1
+Mapname in mappool: oa_shine
+Mapname in mappool: letgo_02
+Mapname in mappool: suspended
+Mapname in mappool: pul1ctf
+Mapname in mappool: wrackdm17
+Mapname in mappool: ps37ctf3
+Mapname in mappool: czest1tourney
+Mapname in mappool: letgo_01
+Mapname in mappool: oa_dm5
+Mapname in mappool: ctf_gate1
+Mapname in mappool: oa_rpg3dm2
+Mapname in mappool: am_thornish
+Mapname in mappool: oa_shouse
+Mapname in mappool: oa_rpg3dm2
+Mapname in mappool: am_thornish
+Mapname in mappool: oa_thor
+Picked map number 27 - am_thornish
+==== ShutdownGame ====
+ShutdownGame:
+------------------------------------------------------------
+------ Server Initialization ------
+Server: am_thornish
+Hunk_Clear: reset the hunk ok
+----- FS_Startup -----
+Current search path:
+/home/openarena//.openarena/baseoa
+./baseoa/X3map05.pk3 (71 files)
+./baseoa/stchctf9a.pk3 (70 files)
+./baseoa/speedyctf.pk3 (73 files)
+./baseoa/Q3floGGer1.pk3 (114 files)
+./baseoa/q3ctfvoy.pk3 (89 files)
+./baseoa/ps9ctf.pk3 (11 files)
+./baseoa/ps5ctf.pk3 (11 files)
+./baseoa/ps37ctf3.pk3 (11 files)
+./baseoa/pak6-patch088.pk3 (711 files)
+./baseoa/pak6-patch085.pk3 (559 files)
+./baseoa/pak6-misc.pk3 (229 files)
+./baseoa/pak5-TA.pk3 (139 files)
+./baseoa/pak4-textures.pk3 (1753 files)
+./baseoa/pak2-players.pk3 (669 files)
+./baseoa/pak2-players-mature.pk3 (231 files)
+./baseoa/pak1-maps.pk3 (100 files)
+./baseoa/pak0.pk3 (1042 files)
+./baseoa/map_cpmctf2.pk3 (57 files)
+./baseoa/LetGo_q3a.pk3 (71 files)
+./baseoa/hctf3.pk3 (43 files)
+./baseoa/hal_palindrome.pk3 (76 files)
+./baseoa/ctf_spunky1.pk3 (22 files)
+./baseoa/ctctf.pk3 (251 files)
+./baseoa/ColdWarCTF.pk3 (101 files)
+./baseoa/bubctf1.pk3 (72 files)
+./baseoa/brickyard.pk3 (90 files)
+./baseoa/17+ctf.pk3 (72 files)
+./baseoa
+
+handle 1: qconsole.log
+----------------------
+6738 files in pk3 files
+Loading vm file vm/qagame.qvm...
+File "vm/qagame.qvm" found in "./baseoa/pak6-patch088.pk3"
+...which has vmMagic VM_MAGIC_VER2
+Loading 1590 jump table targets
+VM file qagame compiled to 3770207 bytes of code (0x7f988312a000 - 0x7f98834c275f)
+compilation took 2.568310 seconds
+qagame loaded in 3012256 bytes on the hunk
+------- Game Initialization -------
+gamename: baseoa
+gamedate: Jan 28 2012
+------------------------------------------------------------
+InitGame: \g_gametype\10\dmflags\0\fraglimit\5\timelimit\10\sv_privateClients\0\sv_hostname\OpServices OpenArena DM Server\sv_maxclients\20\sv_minRate\0\sv_maxRate\222000\sv_minPing\0\sv_maxPing\400\sv_floodProtect\1\sv_allowDownload\1\sv_master1\dpmaster.deathmask.net\capturelimit\5\g_delagHitscan\1\g_needpass\0\g_allowvote\0\g_instantgib\1\g_maxGameClients\0\videoflags\7\g_doWarmup\0\g_voteGametypes\/0/1/3/4/5/6/7/8/9/10/11/12/\g_voteMaxTimelimit\1000\g_voteMinTimelimit\0\g_voteMaxFraglimit\0\g_voteMinFraglimit\0\elimination_roundtime\120\g_lms_mode\0\version\ioq3+oa 1.36_SVN1910M linux-x86_64 Dec 25 2011\protocol\71\mapname\am_thornish\.Admin\Any people who work's on Opservices\.email\webmaster@opservices.com\.www\http://ns3.opservices.com/ren/openarena.tgz\gamename\baseoa\elimflags\0\voteflags\767\g_obeliskRespawnDelay\10\g_enableDust\0\g_enableBreath\0\g_rockets\0\g_altExcellent\0\g_timestamp\2020-03-12 01:10:23
+Info: ServerInfo length: 920 of 1024
+^3!readconfig: ^7could not open admin config file admin.dat
+Sprees/Kills: loaded 1 killing sprees, 0 death sprees, and 0 multikills.
+5 teams with 10 entities
+1 items registered
+-----------------------------------
+-----------------------------------
+Sending heartbeat to dpmaster.deathmask.net
+Hitch warning: 2731 msec frame time
+Sending heartbeat to dpmaster.deathmask.net
+broadcast: print "Timelimit hit.\n"
+Exit: Timelimit hit.
+Sending heartbeat to dpmaster.deathmask.net
+Mapname in mappool: dm6ish
+Mapname in mappool: oa_dm7
+Mapname in mappool: ce1m7
+Mapname in mappool: oa_koth2
+Mapname in mappool: sleekgrinder
+Mapname in mappool: oa_shouse
+Mapname in mappool: czest1tourney
+Mapname in mappool: hctf1
+Mapname in mappool: speedyctf
+Mapname in mappool: aggressor
+Mapname in mappool: oasago2
+Mapname in mappool: pxlfan
+Mapname in mappool: bubctf1
+Mapname in mappool: oa_shine
+Mapname in mappool: letgo_02
+Mapname in mappool: suspended
+Mapname in mappool: pul1ctf
+Mapname in mappool: wrackdm17
+Mapname in mappool: ps37ctf3
+Mapname in mappool: czest1tourney
+Mapname in mappool: letgo_01
+Mapname in mappool: oa_dm5
+Mapname in mappool: ctf_gate1
+Mapname in mappool: oa_rpg3dm2
+Mapname in mappool: am_thornish
+Mapname in mappool: oa_shouse
+Mapname in mappool: oa_rpg3dm2
+Mapname in mappool: am_thornish
+Mapname in mappool: oa_thor
+Picked map number 0 - dm6ish
+==== ShutdownGame ====
+ShutdownGame:
+------------------------------------------------------------
+------ Server Initialization ------
+Server: dm6ish
+Hunk_Clear: reset the hunk ok
+----- FS_Startup -----
+Current search path:
+/home/openarena//.openarena/baseoa
+./baseoa/X3map05.pk3 (71 files)
+./baseoa/stchctf9a.pk3 (70 files)
+./baseoa/speedyctf.pk3 (73 files)
+./baseoa/Q3floGGer1.pk3 (114 files)
+./baseoa/q3ctfvoy.pk3 (89 files)
+./baseoa/ps9ctf.pk3 (11 files)
+./baseoa/ps5ctf.pk3 (11 files)
+./baseoa/ps37ctf3.pk3 (11 files)
+./baseoa/pak6-patch088.pk3 (711 files)
+./baseoa/pak6-patch085.pk3 (559 files)
+./baseoa/pak6-misc.pk3 (229 files)
+./baseoa/pak5-TA.pk3 (139 files)
+./baseoa/pak4-textures.pk3 (1753 files)
+./baseoa/pak2-players.pk3 (669 files)
+./baseoa/pak2-players-mature.pk3 (231 files)
+./baseoa/pak1-maps.pk3 (100 files)
+./baseoa/pak0.pk3 (1042 files)
+./baseoa/map_cpmctf2.pk3 (57 files)
+./baseoa/LetGo_q3a.pk3 (71 files)
+./baseoa/hctf3.pk3 (43 files)
+./baseoa/hal_palindrome.pk3 (76 files)
+./baseoa/ctf_spunky1.pk3 (22 files)
+./baseoa/ctctf.pk3 (251 files)
+./baseoa/ColdWarCTF.pk3 (101 files)
+./baseoa/bubctf1.pk3 (72 files)
+./baseoa/brickyard.pk3 (90 files)
+./baseoa/17+ctf.pk3 (72 files)
+./baseoa
+
+handle 1: qconsole.log
+----------------------
+6738 files in pk3 files
+Loading vm file vm/qagame.qvm...
+File "vm/qagame.qvm" found in "./baseoa/pak6-patch088.pk3"
+...which has vmMagic VM_MAGIC_VER2
+Loading 1590 jump table targets
+VM file qagame compiled to 3770207 bytes of code (0x7f988312a000 - 0x7f98834c275f)
+compilation took 2.574655 seconds
+qagame loaded in 3012256 bytes on the hunk
+------- Game Initialization -------
+gamename: baseoa
+gamedate: Jan 28 2012
+------------------------------------------------------------
+InitGame: \g_gametype\10\dmflags\0\fraglimit\5\timelimit\10\sv_privateClients\0\sv_hostname\OpServices OpenArena DM Server\sv_maxclients\20\sv_minRate\0\sv_maxRate\222000\sv_minPing\0\sv_maxPing\400\sv_floodProtect\1\sv_allowDownload\1\sv_master1\dpmaster.deathmask.net\capturelimit\5\g_delagHitscan\1\g_needpass\0\g_allowvote\0\g_instantgib\1\g_maxGameClients\0\videoflags\7\g_doWarmup\0\g_voteGametypes\/0/1/3/4/5/6/7/8/9/10/11/12/\g_voteMaxTimelimit\1000\g_voteMinTimelimit\0\g_voteMaxFraglimit\0\g_voteMinFraglimit\0\elimination_roundtime\120\g_lms_mode\0\version\ioq3+oa 1.36_SVN1910M linux-x86_64 Dec 25 2011\protocol\71\mapname\dm6ish\.Admin\Any people who work's on Opservices\.email\webmaster@opservices.com\.www\http://ns3.opservices.com/ren/openarena.tgz\gamename\baseoa\elimflags\0\voteflags\767\g_obeliskRespawnDelay\10\g_enableDust\0\g_enableBreath\0\g_rockets\0\g_altExcellent\0\g_timestamp\2020-03-12 01:20:39
+Info: ServerInfo length: 915 of 1024
+^3!readconfig: ^7could not open admin config file admin.dat
+Sprees/Kills: loaded 1 killing sprees, 0 death sprees, and 0 multikills.
+0 teams with 0 entities
+1 items registered
+-----------------------------------
+-----------------------------------
+Sending heartbeat to dpmaster.deathmask.net
+Hitch warning: 2719 msec frame time
+Sending heartbeat to dpmaster.deathmask.net
+broadcast: print "Timelimit hit.\n"
+Exit: Timelimit hit.
+Sending heartbeat to dpmaster.deathmask.net
+Mapname in mappool: dm6ish
+Mapname in mappool: oa_dm7
+Mapname in mappool: ce1m7
+Mapname in mappool: oa_koth2
+Mapname in mappool: sleekgrinder
+Mapname in mappool: oa_shouse
+Mapname in mappool: czest1tourney
+Mapname in mappool: hctf1
+Mapname in mappool: speedyctf
+Mapname in mappool: aggressor
+Mapname in mappool: oasago2
+Mapname in mappool: pxlfan
+Mapname in mappool: bubctf1
+Mapname in mappool: oa_shine
+Mapname in mappool: letgo_02
+Mapname in mappool: suspended
+Mapname in mappool: pul1ctf
+Mapname in mappool: wrackdm17
+Mapname in mappool: ps37ctf3
+Mapname in mappool: czest1tourney
+Mapname in mappool: letgo_01
+Mapname in mappool: oa_dm5
+Mapname in mappool: ctf_gate1
+Mapname in mappool: oa_rpg3dm2
+Mapname in mappool: am_thornish
+Mapname in mappool: oa_shouse
+Mapname in mappool: oa_rpg3dm2
+Mapname in mappool: am_thornish
+Mapname in mappool: oa_thor
+Picked map number 20 - letgo_01
+==== ShutdownGame ====
+ShutdownGame:
+------------------------------------------------------------
+------ Server Initialization ------
+Server: letgo_01
+Hunk_Clear: reset the hunk ok
+----- FS_Startup -----
+Current search path:
+/home/openarena//.openarena/baseoa
+./baseoa/X3map05.pk3 (71 files)
+./baseoa/stchctf9a.pk3 (70 files)
+./baseoa/speedyctf.pk3 (73 files)
+./baseoa/Q3floGGer1.pk3 (114 files)
+./baseoa/q3ctfvoy.pk3 (89 files)
+./baseoa/ps9ctf.pk3 (11 files)
+./baseoa/ps5ctf.pk3 (11 files)
+./baseoa/ps37ctf3.pk3 (11 files)
+./baseoa/pak6-patch088.pk3 (711 files)
+./baseoa/pak6-patch085.pk3 (559 files)
+./baseoa/pak6-misc.pk3 (229 files)
+./baseoa/pak5-TA.pk3 (139 files)
+./baseoa/pak4-textures.pk3 (1753 files)
+./baseoa/pak2-players.pk3 (669 files)
+./baseoa/pak2-players-mature.pk3 (231 files)
+./baseoa/pak1-maps.pk3 (100 files)
+./baseoa/pak0.pk3 (1042 files)
+./baseoa/map_cpmctf2.pk3 (57 files)
+./baseoa/LetGo_q3a.pk3 (71 files)
+./baseoa/hctf3.pk3 (43 files)
+./baseoa/hal_palindrome.pk3 (76 files)
+./baseoa/ctf_spunky1.pk3 (22 files)
+./baseoa/ctctf.pk3 (251 files)
+./baseoa/ColdWarCTF.pk3 (101 files)
+./baseoa/bubctf1.pk3 (72 files)
+./baseoa/brickyard.pk3 (90 files)
+./baseoa/17+ctf.pk3 (72 files)
+./baseoa
+
+handle 1: qconsole.log
+----------------------
+6738 files in pk3 files
+Loading vm file vm/qagame.qvm...
+File "vm/qagame.qvm" found in "./baseoa/pak6-patch088.pk3"
+...which has vmMagic VM_MAGIC_VER2
+Loading 1590 jump table targets
+VM file qagame compiled to 3770207 bytes of code (0x7f988312a000 - 0x7f98834c275f)
+compilation took 2.587566 seconds
+qagame loaded in 3012256 bytes on the hunk
+------- Game Initialization -------
+gamename: baseoa
+gamedate: Jan 28 2012
+------------------------------------------------------------
+InitGame: \g_gametype\10\dmflags\0\fraglimit\5\timelimit\10\sv_privateClients\0\sv_hostname\OpServices OpenArena DM Server\sv_maxclients\20\sv_minRate\0\sv_maxRate\222000\sv_minPing\0\sv_maxPing\400\sv_floodProtect\1\sv_allowDownload\1\sv_master1\dpmaster.deathmask.net\capturelimit\5\g_delagHitscan\1\g_needpass\0\g_allowvote\0\g_instantgib\1\g_maxGameClients\0\videoflags\7\g_doWarmup\0\g_voteGametypes\/0/1/3/4/5/6/7/8/9/10/11/12/\g_voteMaxTimelimit\1000\g_voteMinTimelimit\0\g_voteMaxFraglimit\0\g_voteMinFraglimit\0\elimination_roundtime\120\g_lms_mode\0\version\ioq3+oa 1.36_SVN1910M linux-x86_64 Dec 25 2011\protocol\71\mapname\letgo_01\.Admin\Any people who work's on Opservices\.email\webmaster@opservices.com\.www\http://ns3.opservices.com/ren/openarena.tgz\gamename\baseoa\elimflags\0\voteflags\767\g_obeliskRespawnDelay\10\g_enableDust\0\g_enableBreath\0\g_rockets\0\g_altExcellent\0\g_timestamp\2020-03-12 01:30:54
+Info: ServerInfo length: 917 of 1024
+^3!readconfig: ^7could not open admin config file admin.dat
+Sprees/Kills: loaded 1 killing sprees, 0 death sprees, and 0 multikills.
+0 teams with 0 entities
+1 items registered
+-----------------------------------
+-----------------------------------
+Sending heartbeat to dpmaster.deathmask.net
+Hitch warning: 2726 msec frame time
+Sending heartbeat to dpmaster.deathmask.net
+broadcast: print "Timelimit hit.\n"
+Exit: Timelimit hit.
+Sending heartbeat to dpmaster.deathmask.net
+Mapname in mappool: dm6ish
+Mapname in mappool: oa_dm7
+Mapname in mappool: ce1m7
+Mapname in mappool: oa_koth2
+Mapname in mappool: sleekgrinder
+Mapname in mappool: oa_shouse
+Mapname in mappool: czest1tourney
+Mapname in mappool: hctf1
+Mapname in mappool: speedyctf
+Mapname in mappool: aggressor
+Mapname in mappool: oasago2
+Mapname in mappool: pxlfan
+Mapname in mappool: bubctf1
+Mapname in mappool: oa_shine
+Mapname in mappool: letgo_02
+Mapname in mappool: suspended
+Mapname in mappool: pul1ctf
+Mapname in mappool: wrackdm17
+Mapname in mappool: ps37ctf3
+Mapname in mappool: czest1tourney
+Mapname in mappool: letgo_01
+Mapname in mappool: oa_dm5
+Mapname in mappool: ctf_gate1
+Mapname in mappool: oa_rpg3dm2
+Mapname in mappool: am_thornish
+Mapname in mappool: oa_shouse
+Mapname in mappool: oa_rpg3dm2
+Mapname in mappool: am_thornish
+Mapname in mappool: oa_thor
+Picked map number 24 - am_thornish
+==== ShutdownGame ====
+ShutdownGame:
+------------------------------------------------------------
+------ Server Initialization ------
+Server: am_thornish
+Hunk_Clear: reset the hunk ok
+----- FS_Startup -----
+Current search path:
+/home/openarena//.openarena/baseoa
+./baseoa/X3map05.pk3 (71 files)
+./baseoa/stchctf9a.pk3 (70 files)
+./baseoa/speedyctf.pk3 (73 files)
+./baseoa/Q3floGGer1.pk3 (114 files)
+./baseoa/q3ctfvoy.pk3 (89 files)
+./baseoa/ps9ctf.pk3 (11 files)
+./baseoa/ps5ctf.pk3 (11 files)
+./baseoa/ps37ctf3.pk3 (11 files)
+./baseoa/pak6-patch088.pk3 (711 files)
+./baseoa/pak6-patch085.pk3 (559 files)
+./baseoa/pak6-misc.pk3 (229 files)
+./baseoa/pak5-TA.pk3 (139 files)
+./baseoa/pak4-textures.pk3 (1753 files)
+./baseoa/pak2-players.pk3 (669 files)
+./baseoa/pak2-players-mature.pk3 (231 files)
+./baseoa/pak1-maps.pk3 (100 files)
+./baseoa/pak0.pk3 (1042 files)
+./baseoa/map_cpmctf2.pk3 (57 files)
+./baseoa/LetGo_q3a.pk3 (71 files)
+./baseoa/hctf3.pk3 (43 files)
+./baseoa/hal_palindrome.pk3 (76 files)
+./baseoa/ctf_spunky1.pk3 (22 files)
+./baseoa/ctctf.pk3 (251 files)
+./baseoa/ColdWarCTF.pk3 (101 files)
+./baseoa/bubctf1.pk3 (72 files)
+./baseoa/brickyard.pk3 (90 files)
+./baseoa/17+ctf.pk3 (72 files)
+./baseoa
+
+handle 1: qconsole.log
+----------------------
+6738 files in pk3 files
+Loading vm file vm/qagame.qvm...
+File "vm/qagame.qvm" found in "./baseoa/pak6-patch088.pk3"
+...which has vmMagic VM_MAGIC_VER2
+Loading 1590 jump table targets
+VM file qagame compiled to 3770207 bytes of code (0x7f988312a000 - 0x7f98834c275f)
+compilation took 2.577236 seconds
+qagame loaded in 3012256 bytes on the hunk
+------- Game Initialization -------
+gamename: baseoa
+gamedate: Jan 28 2012
+------------------------------------------------------------
+InitGame: \g_gametype\10\dmflags\0\fraglimit\5\timelimit\10\sv_privateClients\0\sv_hostname\OpServices OpenArena DM Server\sv_maxclients\20\sv_minRate\0\sv_maxRate\222000\sv_minPing\0\sv_maxPing\400\sv_floodProtect\1\sv_allowDownload\1\sv_master1\dpmaster.deathmask.net\capturelimit\5\g_delagHitscan\1\g_needpass\0\g_allowvote\0\g_instantgib\1\g_maxGameClients\0\videoflags\7\g_doWarmup\0\g_voteGametypes\/0/1/3/4/5/6/7/8/9/10/11/12/\g_voteMaxTimelimit\1000\g_voteMinTimelimit\0\g_voteMaxFraglimit\0\g_voteMinFraglimit\0\elimination_roundtime\120\g_lms_mode\0\version\ioq3+oa 1.36_SVN1910M linux-x86_64 Dec 25 2011\protocol\71\mapname\am_thornish\.Admin\Any people who work's on Opservices\.email\webmaster@opservices.com\.www\http://ns3.opservices.com/ren/openarena.tgz\gamename\baseoa\elimflags\0\voteflags\767\g_obeliskRespawnDelay\10\g_enableDust\0\g_enableBreath\0\g_rockets\0\g_altExcellent\0\g_timestamp\2020-03-12 01:41:10
+Info: ServerInfo length: 920 of 1024
+^3!readconfig: ^7could not open admin config file admin.dat
+Sprees/Kills: loaded 1 killing sprees, 0 death sprees, and 0 multikills.
+5 teams with 10 entities
+1 items registered
+-----------------------------------
+-----------------------------------
+Sending heartbeat to dpmaster.deathmask.net
+Hitch warning: 2746 msec frame time
+Sending heartbeat to dpmaster.deathmask.net
+broadcast: print "Timelimit hit.\n"
+Exit: Timelimit hit.
+Sending heartbeat to dpmaster.deathmask.net
+Mapname in mappool: dm6ish
+Mapname in mappool: oa_dm7
+Mapname in mappool: ce1m7
+Mapname in mappool: oa_koth2
+Mapname in mappool: sleekgrinder
+Mapname in mappool: oa_shouse
+Mapname in mappool: czest1tourney
+Mapname in mappool: hctf1
+Mapname in mappool: speedyctf
+Mapname in mappool: aggressor
+Mapname in mappool: oasago2
+Mapname in mappool: pxlfan
+Mapname in mappool: bubctf1
+Mapname in mappool: oa_shine
+Mapname in mappool: letgo_02
+Mapname in mappool: suspended
+Mapname in mappool: pul1ctf
+Mapname in mappool: wrackdm17
+Mapname in mappool: ps37ctf3
+Mapname in mappool: czest1tourney
+Mapname in mappool: letgo_01
+Mapname in mappool: oa_dm5
+Mapname in mappool: ctf_gate1
+Mapname in mappool: oa_rpg3dm2
+Mapname in mappool: am_thornish
+Mapname in mappool: oa_shouse
+Mapname in mappool: oa_rpg3dm2
+Mapname in mappool: am_thornish
+Mapname in mappool: oa_thor
+Picked map number 10 - oasago2
+==== ShutdownGame ====
+ShutdownGame:
+------------------------------------------------------------
+------ Server Initialization ------
+Server: oasago2
+Hunk_Clear: reset the hunk ok
+----- FS_Startup -----
+Current search path:
+/home/openarena//.openarena/baseoa
+./baseoa/X3map05.pk3 (71 files)
+./baseoa/stchctf9a.pk3 (70 files)
+./baseoa/speedyctf.pk3 (73 files)
+./baseoa/Q3floGGer1.pk3 (114 files)
+./baseoa/q3ctfvoy.pk3 (89 files)
+./baseoa/ps9ctf.pk3 (11 files)
+./baseoa/ps5ctf.pk3 (11 files)
+./baseoa/ps37ctf3.pk3 (11 files)
+./baseoa/pak6-patch088.pk3 (711 files)
+./baseoa/pak6-patch085.pk3 (559 files)
+./baseoa/pak6-misc.pk3 (229 files)
+./baseoa/pak5-TA.pk3 (139 files)
+./baseoa/pak4-textures.pk3 (1753 files)
+./baseoa/pak2-players.pk3 (669 files)
+./baseoa/pak2-players-mature.pk3 (231 files)
+./baseoa/pak1-maps.pk3 (100 files)
+./baseoa/pak0.pk3 (1042 files)
+./baseoa/map_cpmctf2.pk3 (57 files)
+./baseoa/LetGo_q3a.pk3 (71 files)
+./baseoa/hctf3.pk3 (43 files)
+./baseoa/hal_palindrome.pk3 (76 files)
+./baseoa/ctf_spunky1.pk3 (22 files)
+./baseoa/ctctf.pk3 (251 files)
+./baseoa/ColdWarCTF.pk3 (101 files)
+./baseoa/bubctf1.pk3 (72 files)
+./baseoa/brickyard.pk3 (90 files)
+./baseoa/17+ctf.pk3 (72 files)
+./baseoa
+
+handle 1: qconsole.log
+----------------------
+6738 files in pk3 files
+Loading vm file vm/qagame.qvm...
+File "vm/qagame.qvm" found in "./baseoa/pak6-patch088.pk3"
+...which has vmMagic VM_MAGIC_VER2
+Loading 1590 jump table targets
+VM file qagame compiled to 3770207 bytes of code (0x7f988312a000 - 0x7f98834c275f)
+compilation took 2.579262 seconds
+qagame loaded in 3012256 bytes on the hunk
+------- Game Initialization -------
+gamename: baseoa
+gamedate: Jan 28 2012
+------------------------------------------------------------
+InitGame: \g_gametype\10\dmflags\0\fraglimit\5\timelimit\10\sv_privateClients\0\sv_hostname\OpServices OpenArena DM Server\sv_maxclients\20\sv_minRate\0\sv_maxRate\222000\sv_minPing\0\sv_maxPing\400\sv_floodProtect\1\sv_allowDownload\1\sv_master1\dpmaster.deathmask.net\capturelimit\5\g_delagHitscan\1\g_needpass\0\g_allowvote\0\g_instantgib\1\g_maxGameClients\0\videoflags\7\g_doWarmup\0\g_voteGametypes\/0/1/3/4/5/6/7/8/9/10/11/12/\g_voteMaxTimelimit\1000\g_voteMinTimelimit\0\g_voteMaxFraglimit\0\g_voteMinFraglimit\0\elimination_roundtime\120\g_lms_mode\0\version\ioq3+oa 1.36_SVN1910M linux-x86_64 Dec 25 2011\protocol\71\mapname\oasago2\.Admin\Any people who work's on Opservices\.email\webmaster@opservices.com\.www\http://ns3.opservices.com/ren/openarena.tgz\gamename\baseoa\elimflags\0\voteflags\767\g_obeliskRespawnDelay\10\g_enableDust\0\g_enableBreath\0\g_rockets\0\g_altExcellent\0\g_timestamp\2020-03-12 01:51:26
+Info: ServerInfo length: 916 of 1024
+^3!readconfig: ^7could not open admin config file admin.dat
+Sprees/Kills: loaded 1 killing sprees, 0 death sprees, and 0 multikills.
+0 teams with 0 entities
+1 items registered
+-----------------------------------
+-----------------------------------
+Sending heartbeat to dpmaster.deathmask.net
+Hitch warning: 2740 msec frame time
+Sending heartbeat to dpmaster.deathmask.net
+broadcast: print "Timelimit hit.\n"
+Exit: Timelimit hit.
+Sending heartbeat to dpmaster.deathmask.net
+Mapname in mappool: dm6ish
+Mapname in mappool: oa_dm7
+Mapname in mappool: ce1m7
+Mapname in mappool: oa_koth2
+Mapname in mappool: sleekgrinder
+Mapname in mappool: oa_shouse
+Mapname in mappool: czest1tourney
+Mapname in mappool: hctf1
+Mapname in mappool: speedyctf
+Mapname in mappool: aggressor
+Mapname in mappool: oasago2
+Mapname in mappool: pxlfan
+Mapname in mappool: bubctf1
+Mapname in mappool: oa_shine
+Mapname in mappool: letgo_02
+Mapname in mappool: suspended
+Mapname in mappool: pul1ctf
+Mapname in mappool: wrackdm17
+Mapname in mappool: ps37ctf3
+Mapname in mappool: czest1tourney
+Mapname in mappool: letgo_01
+Mapname in mappool: oa_dm5
+Mapname in mappool: ctf_gate1
+Mapname in mappool: oa_rpg3dm2
+Mapname in mappool: am_thornish
+Mapname in mappool: oa_shouse
+Mapname in mappool: oa_rpg3dm2
+Mapname in mappool: am_thornish
+Mapname in mappool: oa_thor
+Picked map number 22 - ctf_gate1
+==== ShutdownGame ====
+ShutdownGame:
+------------------------------------------------------------
+------ Server Initialization ------
+Server: ctf_gate1
+Hunk_Clear: reset the hunk ok
+----- FS_Startup -----
+Current search path:
+/home/openarena//.openarena/baseoa
+./baseoa/X3map05.pk3 (71 files)
+./baseoa/stchctf9a.pk3 (70 files)
+./baseoa/speedyctf.pk3 (73 files)
+./baseoa/Q3floGGer1.pk3 (114 files)
+./baseoa/q3ctfvoy.pk3 (89 files)
+./baseoa/ps9ctf.pk3 (11 files)
+./baseoa/ps5ctf.pk3 (11 files)
+./baseoa/ps37ctf3.pk3 (11 files)
+./baseoa/pak6-patch088.pk3 (711 files)
+./baseoa/pak6-patch085.pk3 (559 files)
+./baseoa/pak6-misc.pk3 (229 files)
+./baseoa/pak5-TA.pk3 (139 files)
+./baseoa/pak4-textures.pk3 (1753 files)
+./baseoa/pak2-players.pk3 (669 files)
+./baseoa/pak2-players-mature.pk3 (231 files)
+./baseoa/pak1-maps.pk3 (100 files)
+./baseoa/pak0.pk3 (1042 files)
+./baseoa/map_cpmctf2.pk3 (57 files)
+./baseoa/LetGo_q3a.pk3 (71 files)
+./baseoa/hctf3.pk3 (43 files)
+./baseoa/hal_palindrome.pk3 (76 files)
+./baseoa/ctf_spunky1.pk3 (22 files)
+./baseoa/ctctf.pk3 (251 files)
+./baseoa/ColdWarCTF.pk3 (101 files)
+./baseoa/bubctf1.pk3 (72 files)
+./baseoa/brickyard.pk3 (90 files)
+./baseoa/17+ctf.pk3 (72 files)
+./baseoa
+
+handle 1: qconsole.log
+----------------------
+6738 files in pk3 files
+Loading vm file vm/qagame.qvm...
+File "vm/qagame.qvm" found in "./baseoa/pak6-patch088.pk3"
+...which has vmMagic VM_MAGIC_VER2
+Loading 1590 jump table targets
+VM file qagame compiled to 3770207 bytes of code (0x7f988312a000 - 0x7f98834c275f)
+compilation took 2.565265 seconds
+qagame loaded in 3012256 bytes on the hunk
+------- Game Initialization -------
+gamename: baseoa
+gamedate: Jan 28 2012
+------------------------------------------------------------
+InitGame: \g_gametype\10\dmflags\0\fraglimit\5\timelimit\10\sv_privateClients\0\sv_hostname\OpServices OpenArena DM Server\sv_maxclients\20\sv_minRate\0\sv_maxRate\222000\sv_minPing\0\sv_maxPing\400\sv_floodProtect\1\sv_allowDownload\1\sv_master1\dpmaster.deathmask.net\capturelimit\5\g_delagHitscan\1\g_needpass\0\g_allowvote\0\g_instantgib\1\g_maxGameClients\0\videoflags\7\g_doWarmup\0\g_voteGametypes\/0/1/3/4/5/6/7/8/9/10/11/12/\g_voteMaxTimelimit\1000\g_voteMinTimelimit\0\g_voteMaxFraglimit\0\g_voteMinFraglimit\0\elimination_roundtime\120\g_lms_mode\0\version\ioq3+oa 1.36_SVN1910M linux-x86_64 Dec 25 2011\protocol\71\mapname\ctf_gate1\.Admin\Any people who work's on Opservices\.email\webmaster@opservices.com\.www\http://ns3.opservices.com/ren/openarena.tgz\gamename\baseoa\elimflags\0\voteflags\767\g_obeliskRespawnDelay\10\g_enableDust\0\g_enableBreath\0\g_rockets\0\g_altExcellent\0\g_timestamp\2020-03-12 02:01:41
+Info: ServerInfo length: 918 of 1024
+^3!readconfig: ^7could not open admin config file admin.dat
+Sprees/Kills: loaded 1 killing sprees, 0 death sprees, and 0 multikills.
+0 teams with 0 entities
+1 items registered
+-----------------------------------
+-----------------------------------
+Sending heartbeat to dpmaster.deathmask.net
+Hitch warning: 2738 msec frame time
+Sending heartbeat to dpmaster.deathmask.net
+broadcast: print "Timelimit hit.\n"
+Exit: Timelimit hit.
+Sending heartbeat to dpmaster.deathmask.net
+Mapname in mappool: dm6ish
+Mapname in mappool: oa_dm7
+Mapname in mappool: ce1m7
+Mapname in mappool: oa_koth2
+Mapname in mappool: sleekgrinder
+Mapname in mappool: oa_shouse
+Mapname in mappool: czest1tourney
+Mapname in mappool: hctf1
+Mapname in mappool: speedyctf
+Mapname in mappool: aggressor
+Mapname in mappool: oasago2
+Mapname in mappool: pxlfan
+Mapname in mappool: bubctf1
+Mapname in mappool: oa_shine
+Mapname in mappool: letgo_02
+Mapname in mappool: suspended
+Mapname in mappool: pul1ctf
+Mapname in mappool: wrackdm17
+Mapname in mappool: ps37ctf3
+Mapname in mappool: czest1tourney
+Mapname in mappool: letgo_01
+Mapname in mappool: oa_dm5
+Mapname in mappool: ctf_gate1
+Mapname in mappool: oa_rpg3dm2
+Mapname in mappool: am_thornish
+Mapname in mappool: oa_shouse
+Mapname in mappool: oa_rpg3dm2
+Mapname in mappool: am_thornish
+Mapname in mappool: oa_thor
+Picked map number 0 - dm6ish
+==== ShutdownGame ====
+ShutdownGame:
+------------------------------------------------------------
+------ Server Initialization ------
+Server: dm6ish
+Hunk_Clear: reset the hunk ok
+----- FS_Startup -----
+Current search path:
+/home/openarena//.openarena/baseoa
+./baseoa/X3map05.pk3 (71 files)
+./baseoa/stchctf9a.pk3 (70 files)
+./baseoa/speedyctf.pk3 (73 files)
+./baseoa/Q3floGGer1.pk3 (114 files)
+./baseoa/q3ctfvoy.pk3 (89 files)
+./baseoa/ps9ctf.pk3 (11 files)
+./baseoa/ps5ctf.pk3 (11 files)
+./baseoa/ps37ctf3.pk3 (11 files)
+./baseoa/pak6-patch088.pk3 (711 files)
+./baseoa/pak6-patch085.pk3 (559 files)
+./baseoa/pak6-misc.pk3 (229 files)
+./baseoa/pak5-TA.pk3 (139 files)
+./baseoa/pak4-textures.pk3 (1753 files)
+./baseoa/pak2-players.pk3 (669 files)
+./baseoa/pak2-players-mature.pk3 (231 files)
+./baseoa/pak1-maps.pk3 (100 files)
+./baseoa/pak0.pk3 (1042 files)
+./baseoa/map_cpmctf2.pk3 (57 files)
+./baseoa/LetGo_q3a.pk3 (71 files)
+./baseoa/hctf3.pk3 (43 files)
+./baseoa/hal_palindrome.pk3 (76 files)
+./baseoa/ctf_spunky1.pk3 (22 files)
+./baseoa/ctctf.pk3 (251 files)
+./baseoa/ColdWarCTF.pk3 (101 files)
+./baseoa/bubctf1.pk3 (72 files)
+./baseoa/brickyard.pk3 (90 files)
+./baseoa/17+ctf.pk3 (72 files)
+./baseoa
+
+handle 1: qconsole.log
+----------------------
+6738 files in pk3 files
+Loading vm file vm/qagame.qvm...
+File "vm/qagame.qvm" found in "./baseoa/pak6-patch088.pk3"
+...which has vmMagic VM_MAGIC_VER2
+Loading 1590 jump table targets
+VM file qagame compiled to 3770207 bytes of code (0x7f988312a000 - 0x7f98834c275f)
+compilation took 2.590263 seconds
+qagame loaded in 3012256 bytes on the hunk
+------- Game Initialization -------
+gamename: baseoa
+gamedate: Jan 28 2012
+------------------------------------------------------------
+InitGame: \g_gametype\10\dmflags\0\fraglimit\5\timelimit\10\sv_privateClients\0\sv_hostname\OpServices OpenArena DM Server\sv_maxclients\20\sv_minRate\0\sv_maxRate\222000\sv_minPing\0\sv_maxPing\400\sv_floodProtect\1\sv_allowDownload\1\sv_master1\dpmaster.deathmask.net\capturelimit\5\g_delagHitscan\1\g_needpass\0\g_allowvote\0\g_instantgib\1\g_maxGameClients\0\videoflags\7\g_doWarmup\0\g_voteGametypes\/0/1/3/4/5/6/7/8/9/10/11/12/\g_voteMaxTimelimit\1000\g_voteMinTimelimit\0\g_voteMaxFraglimit\0\g_voteMinFraglimit\0\elimination_roundtime\120\g_lms_mode\0\version\ioq3+oa 1.36_SVN1910M linux-x86_64 Dec 25 2011\protocol\71\mapname\dm6ish\.Admin\Any people who work's on Opservices\.email\webmaster@opservices.com\.www\http://ns3.opservices.com/ren/openarena.tgz\gamename\baseoa\elimflags\0\voteflags\767\g_obeliskRespawnDelay\10\g_enableDust\0\g_enableBreath\0\g_rockets\0\g_altExcellent\0\g_timestamp\2020-03-12 02:11:57
+Info: ServerInfo length: 915 of 1024
+^3!readconfig: ^7could not open admin config file admin.dat
+Sprees/Kills: loaded 1 killing sprees, 0 death sprees, and 0 multikills.
+0 teams with 0 entities
+1 items registered
+-----------------------------------
+-----------------------------------
+Sending heartbeat to dpmaster.deathmask.net
+Hitch warning: 2734 msec frame time
+Sending heartbeat to dpmaster.deathmask.net
+broadcast: print "Timelimit hit.\n"
+Exit: Timelimit hit.
+Sending heartbeat to dpmaster.deathmask.net
+Mapname in mappool: dm6ish
+Mapname in mappool: oa_dm7
+Mapname in mappool: ce1m7
+Mapname in mappool: oa_koth2
+Mapname in mappool: sleekgrinder
+Mapname in mappool: oa_shouse
+Mapname in mappool: czest1tourney
+Mapname in mappool: hctf1
+Mapname in mappool: speedyctf
+Mapname in mappool: aggressor
+Mapname in mappool: oasago2
+Mapname in mappool: pxlfan
+Mapname in mappool: bubctf1
+Mapname in mappool: oa_shine
+Mapname in mappool: letgo_02
+Mapname in mappool: suspended
+Mapname in mappool: pul1ctf
+Mapname in mappool: wrackdm17
+Mapname in mappool: ps37ctf3
+Mapname in mappool: czest1tourney
+Mapname in mappool: letgo_01
+Mapname in mappool: oa_dm5
+Mapname in mappool: ctf_gate1
+Mapname in mappool: oa_rpg3dm2
+Mapname in mappool: am_thornish
+Mapname in mappool: oa_shouse
+Mapname in mappool: oa_rpg3dm2
+Mapname in mappool: am_thornish
+Mapname in mappool: oa_thor
+Picked map number 24 - am_thornish
+==== ShutdownGame ====
+ShutdownGame:
+------------------------------------------------------------
+------ Server Initialization ------
+Server: am_thornish
+Hunk_Clear: reset the hunk ok
+----- FS_Startup -----
+Current search path:
+/home/openarena//.openarena/baseoa
+./baseoa/X3map05.pk3 (71 files)
+./baseoa/stchctf9a.pk3 (70 files)
+./baseoa/speedyctf.pk3 (73 files)
+./baseoa/Q3floGGer1.pk3 (114 files)
+./baseoa/q3ctfvoy.pk3 (89 files)
+./baseoa/ps9ctf.pk3 (11 files)
+./baseoa/ps5ctf.pk3 (11 files)
+./baseoa/ps37ctf3.pk3 (11 files)
+./baseoa/pak6-patch088.pk3 (711 files)
+./baseoa/pak6-patch085.pk3 (559 files)
+./baseoa/pak6-misc.pk3 (229 files)
+./baseoa/pak5-TA.pk3 (139 files)
+./baseoa/pak4-textures.pk3 (1753 files)
+./baseoa/pak2-players.pk3 (669 files)
+./baseoa/pak2-players-mature.pk3 (231 files)
+./baseoa/pak1-maps.pk3 (100 files)
+./baseoa/pak0.pk3 (1042 files)
+./baseoa/map_cpmctf2.pk3 (57 files)
+./baseoa/LetGo_q3a.pk3 (71 files)
+./baseoa/hctf3.pk3 (43 files)
+./baseoa/hal_palindrome.pk3 (76 files)
+./baseoa/ctf_spunky1.pk3 (22 files)
+./baseoa/ctctf.pk3 (251 files)
+./baseoa/ColdWarCTF.pk3 (101 files)
+./baseoa/bubctf1.pk3 (72 files)
+./baseoa/brickyard.pk3 (90 files)
+./baseoa/17+ctf.pk3 (72 files)
+./baseoa
+
+handle 1: qconsole.log
+----------------------
+6738 files in pk3 files
+Loading vm file vm/qagame.qvm...
+File "vm/qagame.qvm" found in "./baseoa/pak6-patch088.pk3"
+...which has vmMagic VM_MAGIC_VER2
+Loading 1590 jump table targets
+VM file qagame compiled to 3770207 bytes of code (0x7f988312a000 - 0x7f98834c275f)
+compilation took 2.573067 seconds
+qagame loaded in 3012256 bytes on the hunk
+------- Game Initialization -------
+gamename: baseoa
+gamedate: Jan 28 2012
+------------------------------------------------------------
+InitGame: \g_gametype\10\dmflags\0\fraglimit\5\timelimit\10\sv_privateClients\0\sv_hostname\OpServices OpenArena DM Server\sv_maxclients\20\sv_minRate\0\sv_maxRate\222000\sv_minPing\0\sv_maxPing\400\sv_floodProtect\1\sv_allowDownload\1\sv_master1\dpmaster.deathmask.net\capturelimit\5\g_delagHitscan\1\g_needpass\0\g_allowvote\0\g_instantgib\1\g_maxGameClients\0\videoflags\7\g_doWarmup\0\g_voteGametypes\/0/1/3/4/5/6/7/8/9/10/11/12/\g_voteMaxTimelimit\1000\g_voteMinTimelimit\0\g_voteMaxFraglimit\0\g_voteMinFraglimit\0\elimination_roundtime\120\g_lms_mode\0\version\ioq3+oa 1.36_SVN1910M linux-x86_64 Dec 25 2011\protocol\71\mapname\am_thornish\.Admin\Any people who work's on Opservices\.email\webmaster@opservices.com\.www\http://ns3.opservices.com/ren/openarena.tgz\gamename\baseoa\elimflags\0\voteflags\767\g_obeliskRespawnDelay\10\g_enableDust\0\g_enableBreath\0\g_rockets\0\g_altExcellent\0\g_timestamp\2020-03-12 02:22:12
+Info: ServerInfo length: 920 of 1024
+^3!readconfig: ^7could not open admin config file admin.dat
+Sprees/Kills: loaded 1 killing sprees, 0 death sprees, and 0 multikills.
+5 teams with 10 entities
+1 items registered
+-----------------------------------
+-----------------------------------
+Sending heartbeat to dpmaster.deathmask.net
+Hitch warning: 2745 msec frame time
+Sending heartbeat to dpmaster.deathmask.net
+broadcast: print "Timelimit hit.\n"
+Exit: Timelimit hit.
+Sending heartbeat to dpmaster.deathmask.net
+Mapname in mappool: dm6ish
+Mapname in mappool: oa_dm7
+Mapname in mappool: ce1m7
+Mapname in mappool: oa_koth2
+Mapname in mappool: sleekgrinder
+Mapname in mappool: oa_shouse
+Mapname in mappool: czest1tourney
+Mapname in mappool: hctf1
+Mapname in mappool: speedyctf
+Mapname in mappool: aggressor
+Mapname in mappool: oasago2
+Mapname in mappool: pxlfan
+Mapname in mappool: bubctf1
+Mapname in mappool: oa_shine
+Mapname in mappool: letgo_02
+Mapname in mappool: suspended
+Mapname in mappool: pul1ctf
+Mapname in mappool: wrackdm17
+Mapname in mappool: ps37ctf3
+Mapname in mappool: czest1tourney
+Mapname in mappool: letgo_01
+Mapname in mappool: oa_dm5
+Mapname in mappool: ctf_gate1
+Mapname in mappool: oa_rpg3dm2
+Mapname in mappool: am_thornish
+Mapname in mappool: oa_shouse
+Mapname in mappool: oa_rpg3dm2
+Mapname in mappool: am_thornish
+Mapname in mappool: oa_thor
+Picked map number 23 - oa_rpg3dm2
+==== ShutdownGame ====
+ShutdownGame:
+------------------------------------------------------------
+------ Server Initialization ------
+Server: oa_rpg3dm2
+Hunk_Clear: reset the hunk ok
+----- FS_Startup -----
+Current search path:
+/home/openarena//.openarena/baseoa
+./baseoa/X3map05.pk3 (71 files)
+./baseoa/stchctf9a.pk3 (70 files)
+./baseoa/speedyctf.pk3 (73 files)
+./baseoa/Q3floGGer1.pk3 (114 files)
+./baseoa/q3ctfvoy.pk3 (89 files)
+./baseoa/ps9ctf.pk3 (11 files)
+./baseoa/ps5ctf.pk3 (11 files)
+./baseoa/ps37ctf3.pk3 (11 files)
+./baseoa/pak6-patch088.pk3 (711 files)
+./baseoa/pak6-patch085.pk3 (559 files)
+./baseoa/pak6-misc.pk3 (229 files)
+./baseoa/pak5-TA.pk3 (139 files)
+./baseoa/pak4-textures.pk3 (1753 files)
+./baseoa/pak2-players.pk3 (669 files)
+./baseoa/pak2-players-mature.pk3 (231 files)
+./baseoa/pak1-maps.pk3 (100 files)
+./baseoa/pak0.pk3 (1042 files)
+./baseoa/map_cpmctf2.pk3 (57 files)
+./baseoa/LetGo_q3a.pk3 (71 files)
+./baseoa/hctf3.pk3 (43 files)
+./baseoa/hal_palindrome.pk3 (76 files)
+./baseoa/ctf_spunky1.pk3 (22 files)
+./baseoa/ctctf.pk3 (251 files)
+./baseoa/ColdWarCTF.pk3 (101 files)
+./baseoa/bubctf1.pk3 (72 files)
+./baseoa/brickyard.pk3 (90 files)
+./baseoa/17+ctf.pk3 (72 files)
+./baseoa
+
+handle 1: qconsole.log
+----------------------
+6738 files in pk3 files
+Loading vm file vm/qagame.qvm...
+File "vm/qagame.qvm" found in "./baseoa/pak6-patch088.pk3"
+...which has vmMagic VM_MAGIC_VER2
+Loading 1590 jump table targets
+VM file qagame compiled to 3770207 bytes of code (0x7f988312a000 - 0x7f98834c275f)
+compilation took 2.579832 seconds
+qagame loaded in 3012256 bytes on the hunk
+------- Game Initialization -------
+gamename: baseoa
+gamedate: Jan 28 2012
+------------------------------------------------------------
+InitGame: \g_gametype\10\dmflags\0\fraglimit\5\timelimit\10\sv_privateClients\0\sv_hostname\OpServices OpenArena DM Server\sv_maxclients\20\sv_minRate\0\sv_maxRate\222000\sv_minPing\0\sv_maxPing\400\sv_floodProtect\1\sv_allowDownload\1\sv_master1\dpmaster.deathmask.net\capturelimit\5\g_delagHitscan\1\g_needpass\0\g_allowvote\0\g_instantgib\1\g_maxGameClients\0\videoflags\7\g_doWarmup\0\g_voteGametypes\/0/1/3/4/5/6/7/8/9/10/11/12/\g_voteMaxTimelimit\1000\g_voteMinTimelimit\0\g_voteMaxFraglimit\0\g_voteMinFraglimit\0\elimination_roundtime\120\g_lms_mode\0\version\ioq3+oa 1.36_SVN1910M linux-x86_64 Dec 25 2011\protocol\71\mapname\oa_rpg3dm2\.Admin\Any people who work's on Opservices\.email\webmaster@opservices.com\.www\http://ns3.opservices.com/ren/openarena.tgz\gamename\baseoa\elimflags\0\voteflags\767\g_obeliskRespawnDelay\10\g_enableDust\0\g_enableBreath\0\g_rockets\0\g_altExcellent\0\g_timestamp\2020-03-12 02:32:28
+Info: ServerInfo length: 919 of 1024
+^3!readconfig: ^7could not open admin config file admin.dat
+Sprees/Kills: loaded 1 killing sprees, 0 death sprees, and 0 multikills.
+0 teams with 0 entities
+1 items registered
+-----------------------------------
+-----------------------------------
+Sending heartbeat to dpmaster.deathmask.net
+Hitch warning: 2726 msec frame time
+Sending heartbeat to dpmaster.deathmask.net
+broadcast: print "Timelimit hit.\n"
+Exit: Timelimit hit.
+Sending heartbeat to dpmaster.deathmask.net
+Mapname in mappool: dm6ish
+Mapname in mappool: oa_dm7
+Mapname in mappool: ce1m7
+Mapname in mappool: oa_koth2
+Mapname in mappool: sleekgrinder
+Mapname in mappool: oa_shouse
+Mapname in mappool: czest1tourney
+Mapname in mappool: hctf1
+Mapname in mappool: speedyctf
+Mapname in mappool: aggressor
+Mapname in mappool: oasago2
+Mapname in mappool: pxlfan
+Mapname in mappool: bubctf1
+Mapname in mappool: oa_shine
+Mapname in mappool: letgo_02
+Mapname in mappool: suspended
+Mapname in mappool: pul1ctf
+Mapname in mappool: wrackdm17
+Mapname in mappool: ps37ctf3
+Mapname in mappool: czest1tourney
+Mapname in mappool: letgo_01
+Mapname in mappool: oa_dm5
+Mapname in mappool: ctf_gate1
+Mapname in mappool: oa_rpg3dm2
+Mapname in mappool: am_thornish
+Mapname in mappool: oa_shouse
+Mapname in mappool: oa_rpg3dm2
+Mapname in mappool: am_thornish
+Mapname in mappool: oa_thor
+Picked map number 1 - oa_dm7
+==== ShutdownGame ====
+ShutdownGame:
+------------------------------------------------------------
+------ Server Initialization ------
+Server: oa_dm7
+Hunk_Clear: reset the hunk ok
+----- FS_Startup -----
+Current search path:
+/home/openarena//.openarena/baseoa
+./baseoa/X3map05.pk3 (71 files)
+./baseoa/stchctf9a.pk3 (70 files)
+./baseoa/speedyctf.pk3 (73 files)
+./baseoa/Q3floGGer1.pk3 (114 files)
+./baseoa/q3ctfvoy.pk3 (89 files)
+./baseoa/ps9ctf.pk3 (11 files)
+./baseoa/ps5ctf.pk3 (11 files)
+./baseoa/ps37ctf3.pk3 (11 files)
+./baseoa/pak6-patch088.pk3 (711 files)
+./baseoa/pak6-patch085.pk3 (559 files)
+./baseoa/pak6-misc.pk3 (229 files)
+./baseoa/pak5-TA.pk3 (139 files)
+./baseoa/pak4-textures.pk3 (1753 files)
+./baseoa/pak2-players.pk3 (669 files)
+./baseoa/pak2-players-mature.pk3 (231 files)
+./baseoa/pak1-maps.pk3 (100 files)
+./baseoa/pak0.pk3 (1042 files)
+./baseoa/map_cpmctf2.pk3 (57 files)
+./baseoa/LetGo_q3a.pk3 (71 files)
+./baseoa/hctf3.pk3 (43 files)
+./baseoa/hal_palindrome.pk3 (76 files)
+./baseoa/ctf_spunky1.pk3 (22 files)
+./baseoa/ctctf.pk3 (251 files)
+./baseoa/ColdWarCTF.pk3 (101 files)
+./baseoa/bubctf1.pk3 (72 files)
+./baseoa/brickyard.pk3 (90 files)
+./baseoa/17+ctf.pk3 (72 files)
+./baseoa
+
+handle 1: qconsole.log
+----------------------
+6738 files in pk3 files
+Loading vm file vm/qagame.qvm...
+File "vm/qagame.qvm" found in "./baseoa/pak6-patch088.pk3"
+...which has vmMagic VM_MAGIC_VER2
+Loading 1590 jump table targets
+VM file qagame compiled to 3770207 bytes of code (0x7f988312a000 - 0x7f98834c275f)
+compilation took 2.580719 seconds
+qagame loaded in 3012256 bytes on the hunk
+------- Game Initialization -------
+gamename: baseoa
+gamedate: Jan 28 2012
+------------------------------------------------------------
+InitGame: \g_gametype\10\dmflags\0\fraglimit\5\timelimit\10\sv_privateClients\0\sv_hostname\OpServices OpenArena DM Server\sv_maxclients\20\sv_minRate\0\sv_maxRate\222000\sv_minPing\0\sv_maxPing\400\sv_floodProtect\1\sv_allowDownload\1\sv_master1\dpmaster.deathmask.net\capturelimit\5\g_delagHitscan\1\g_needpass\0\g_allowvote\0\g_instantgib\1\g_maxGameClients\0\videoflags\7\g_doWarmup\0\g_voteGametypes\/0/1/3/4/5/6/7/8/9/10/11/12/\g_voteMaxTimelimit\1000\g_voteMinTimelimit\0\g_voteMaxFraglimit\0\g_voteMinFraglimit\0\elimination_roundtime\120\g_lms_mode\0\version\ioq3+oa 1.36_SVN1910M linux-x86_64 Dec 25 2011\protocol\71\mapname\oa_dm7\.Admin\Any people who work's on Opservices\.email\webmaster@opservices.com\.www\http://ns3.opservices.com/ren/openarena.tgz\gamename\baseoa\elimflags\0\voteflags\767\g_obeliskRespawnDelay\10\g_enableDust\0\g_enableBreath\0\g_rockets\0\g_altExcellent\0\g_timestamp\2020-03-12 02:42:44
+Info: ServerInfo length: 915 of 1024
+^3!readconfig: ^7could not open admin config file admin.dat
+Sprees/Kills: loaded 1 killing sprees, 0 death sprees, and 0 multikills.
+0 teams with 0 entities
+1 items registered
+-----------------------------------
+FinishSpawningItem: item_health startsolid at (624 -328 320)
+FinishSpawningItem: item_health startsolid at (624 -864 320)
+-----------------------------------
+Sending heartbeat to dpmaster.deathmask.net
+Hitch warning: 2709 msec frame time
+Sending heartbeat to dpmaster.deathmask.net
+broadcast: print "Timelimit hit.\n"
+Exit: Timelimit hit.
+Sending heartbeat to dpmaster.deathmask.net
+Mapname in mappool: dm6ish
+Mapname in mappool: oa_dm7
+Mapname in mappool: ce1m7
+Mapname in mappool: oa_koth2
+Mapname in mappool: sleekgrinder
+Mapname in mappool: oa_shouse
+Mapname in mappool: czest1tourney
+Mapname in mappool: hctf1
+Mapname in mappool: speedyctf
+Mapname in mappool: aggressor
+Mapname in mappool: oasago2
+Mapname in mappool: pxlfan
+Mapname in mappool: bubctf1
+Mapname in mappool: oa_shine
+Mapname in mappool: letgo_02
+Mapname in mappool: suspended
+Mapname in mappool: pul1ctf
+Mapname in mappool: wrackdm17
+Mapname in mappool: ps37ctf3
+Mapname in mappool: czest1tourney
+Mapname in mappool: letgo_01
+Mapname in mappool: oa_dm5
+Mapname in mappool: ctf_gate1
+Mapname in mappool: oa_rpg3dm2
+Mapname in mappool: am_thornish
+Mapname in mappool: oa_shouse
+Mapname in mappool: oa_rpg3dm2
+Mapname in mappool: am_thornish
+Mapname in mappool: oa_thor
+Picked map number 28 - oa_thor
+==== ShutdownGame ====
+ShutdownGame:
+------------------------------------------------------------
+------ Server Initialization ------
+Server: oa_thor
+Hunk_Clear: reset the hunk ok
+----- FS_Startup -----
+Current search path:
+/home/openarena//.openarena/baseoa
+./baseoa/X3map05.pk3 (71 files)
+./baseoa/stchctf9a.pk3 (70 files)
+./baseoa/speedyctf.pk3 (73 files)
+./baseoa/Q3floGGer1.pk3 (114 files)
+./baseoa/q3ctfvoy.pk3 (89 files)
+./baseoa/ps9ctf.pk3 (11 files)
+./baseoa/ps5ctf.pk3 (11 files)
+./baseoa/ps37ctf3.pk3 (11 files)
+./baseoa/pak6-patch088.pk3 (711 files)
+./baseoa/pak6-patch085.pk3 (559 files)
+./baseoa/pak6-misc.pk3 (229 files)
+./baseoa/pak5-TA.pk3 (139 files)
+./baseoa/pak4-textures.pk3 (1753 files)
+./baseoa/pak2-players.pk3 (669 files)
+./baseoa/pak2-players-mature.pk3 (231 files)
+./baseoa/pak1-maps.pk3 (100 files)
+./baseoa/pak0.pk3 (1042 files)
+./baseoa/map_cpmctf2.pk3 (57 files)
+./baseoa/LetGo_q3a.pk3 (71 files)
+./baseoa/hctf3.pk3 (43 files)
+./baseoa/hal_palindrome.pk3 (76 files)
+./baseoa/ctf_spunky1.pk3 (22 files)
+./baseoa/ctctf.pk3 (251 files)
+./baseoa/ColdWarCTF.pk3 (101 files)
+./baseoa/bubctf1.pk3 (72 files)
+./baseoa/brickyard.pk3 (90 files)
+./baseoa/17+ctf.pk3 (72 files)
+./baseoa
+
+handle 1: qconsole.log
+----------------------
+6738 files in pk3 files
+Loading vm file vm/qagame.qvm...
+File "vm/qagame.qvm" found in "./baseoa/pak6-patch088.pk3"
+...which has vmMagic VM_MAGIC_VER2
+Loading 1590 jump table targets
+VM file qagame compiled to 3770207 bytes of code (0x7f988312a000 - 0x7f98834c275f)
+compilation took 2.552292 seconds
+qagame loaded in 3012256 bytes on the hunk
+------- Game Initialization -------
+gamename: baseoa
+gamedate: Jan 28 2012
+------------------------------------------------------------
+InitGame: \g_gametype\10\dmflags\0\fraglimit\5\timelimit\10\sv_privateClients\0\sv_hostname\OpServices OpenArena DM Server\sv_maxclients\20\sv_minRate\0\sv_maxRate\222000\sv_minPing\0\sv_maxPing\400\sv_floodProtect\1\sv_allowDownload\1\sv_master1\dpmaster.deathmask.net\capturelimit\5\g_delagHitscan\1\g_needpass\0\g_allowvote\0\g_instantgib\1\g_maxGameClients\0\videoflags\7\g_doWarmup\0\g_voteGametypes\/0/1/3/4/5/6/7/8/9/10/11/12/\g_voteMaxTimelimit\1000\g_voteMinTimelimit\0\g_voteMaxFraglimit\0\g_voteMinFraglimit\0\elimination_roundtime\120\g_lms_mode\0\version\ioq3+oa 1.36_SVN1910M linux-x86_64 Dec 25 2011\protocol\71\mapname\oa_thor\.Admin\Any people who work's on Opservices\.email\webmaster@opservices.com\.www\http://ns3.opservices.com/ren/openarena.tgz\gamename\baseoa\elimflags\0\voteflags\767\g_obeliskRespawnDelay\10\g_enableDust\0\g_enableBreath\0\g_rockets\0\g_altExcellent\0\g_timestamp\2020-03-12 02:52:59
+Info: ServerInfo length: 916 of 1024
+^3!readconfig: ^7could not open admin config file admin.dat
+Sprees/Kills: loaded 1 killing sprees, 0 death sprees, and 0 multikills.
+0 teams with 0 entities
+1 items registered
+-----------------------------------
+-----------------------------------
+Sending heartbeat to dpmaster.deathmask.net
+Hitch warning: 2804 msec frame time
+Sending heartbeat to dpmaster.deathmask.net
+broadcast: print "Timelimit hit.\n"
+Exit: Timelimit hit.
+Sending heartbeat to dpmaster.deathmask.net
+Mapname in mappool: dm6ish
+Mapname in mappool: oa_dm7
+Mapname in mappool: ce1m7
+Mapname in mappool: oa_koth2
+Mapname in mappool: sleekgrinder
+Mapname in mappool: oa_shouse
+Mapname in mappool: czest1tourney
+Mapname in mappool: hctf1
+Mapname in mappool: speedyctf
+Mapname in mappool: aggressor
+Mapname in mappool: oasago2
+Mapname in mappool: pxlfan
+Mapname in mappool: bubctf1
+Mapname in mappool: oa_shine
+Mapname in mappool: letgo_02
+Mapname in mappool: suspended
+Mapname in mappool: pul1ctf
+Mapname in mappool: wrackdm17
+Mapname in mappool: ps37ctf3
+Mapname in mappool: czest1tourney
+Mapname in mappool: letgo_01
+Mapname in mappool: oa_dm5
+Mapname in mappool: ctf_gate1
+Mapname in mappool: oa_rpg3dm2
+Mapname in mappool: am_thornish
+Mapname in mappool: oa_shouse
+Mapname in mappool: oa_rpg3dm2
+Mapname in mappool: am_thornish
+Mapname in mappool: oa_thor
+Picked map number 14 - letgo_02
+==== ShutdownGame ====
+ShutdownGame:
+------------------------------------------------------------
+------ Server Initialization ------
+Server: letgo_02
+Hunk_Clear: reset the hunk ok
+----- FS_Startup -----
+Current search path:
+/home/openarena//.openarena/baseoa
+./baseoa/X3map05.pk3 (71 files)
+./baseoa/stchctf9a.pk3 (70 files)
+./baseoa/speedyctf.pk3 (73 files)
+./baseoa/Q3floGGer1.pk3 (114 files)
+./baseoa/q3ctfvoy.pk3 (89 files)
+./baseoa/ps9ctf.pk3 (11 files)
+./baseoa/ps5ctf.pk3 (11 files)
+./baseoa/ps37ctf3.pk3 (11 files)
+./baseoa/pak6-patch088.pk3 (711 files)
+./baseoa/pak6-patch085.pk3 (559 files)
+./baseoa/pak6-misc.pk3 (229 files)
+./baseoa/pak5-TA.pk3 (139 files)
+./baseoa/pak4-textures.pk3 (1753 files)
+./baseoa/pak2-players.pk3 (669 files)
+./baseoa/pak2-players-mature.pk3 (231 files)
+./baseoa/pak1-maps.pk3 (100 files)
+./baseoa/pak0.pk3 (1042 files)
+./baseoa/map_cpmctf2.pk3 (57 files)
+./baseoa/LetGo_q3a.pk3 (71 files)
+./baseoa/hctf3.pk3 (43 files)
+./baseoa/hal_palindrome.pk3 (76 files)
+./baseoa/ctf_spunky1.pk3 (22 files)
+./baseoa/ctctf.pk3 (251 files)
+./baseoa/ColdWarCTF.pk3 (101 files)
+./baseoa/bubctf1.pk3 (72 files)
+./baseoa/brickyard.pk3 (90 files)
+./baseoa/17+ctf.pk3 (72 files)
+./baseoa
+
+handle 1: qconsole.log
+----------------------
+6738 files in pk3 files
+Loading vm file vm/qagame.qvm...
+File "vm/qagame.qvm" found in "./baseoa/pak6-patch088.pk3"
+...which has vmMagic VM_MAGIC_VER2
+Loading 1590 jump table targets
+VM file qagame compiled to 3770207 bytes of code (0x7f988312a000 - 0x7f98834c275f)
+compilation took 2.580807 seconds
+qagame loaded in 3012256 bytes on the hunk
+------- Game Initialization -------
+gamename: baseoa
+gamedate: Jan 28 2012
+------------------------------------------------------------
+InitGame: \g_gametype\10\dmflags\0\fraglimit\5\timelimit\10\sv_privateClients\0\sv_hostname\OpServices OpenArena DM Server\sv_maxclients\20\sv_minRate\0\sv_maxRate\222000\sv_minPing\0\sv_maxPing\400\sv_floodProtect\1\sv_allowDownload\1\sv_master1\dpmaster.deathmask.net\capturelimit\5\g_delagHitscan\1\g_needpass\0\g_allowvote\0\g_instantgib\1\g_maxGameClients\0\videoflags\7\g_doWarmup\0\g_voteGametypes\/0/1/3/4/5/6/7/8/9/10/11/12/\g_voteMaxTimelimit\1000\g_voteMinTimelimit\0\g_voteMaxFraglimit\0\g_voteMinFraglimit\0\elimination_roundtime\120\g_lms_mode\0\version\ioq3+oa 1.36_SVN1910M linux-x86_64 Dec 25 2011\protocol\71\mapname\letgo_02\.Admin\Any people who work's on Opservices\.email\webmaster@opservices.com\.www\http://ns3.opservices.com/ren/openarena.tgz\gamename\baseoa\elimflags\0\voteflags\767\g_obeliskRespawnDelay\10\g_enableDust\0\g_enableBreath\0\g_rockets\0\g_altExcellent\0\g_timestamp\2020-03-12 03:03:15
+Info: ServerInfo length: 917 of 1024
+^3!readconfig: ^7could not open admin config file admin.dat
+Sprees/Kills: loaded 1 killing sprees, 0 death sprees, and 0 multikills.
+0 teams with 0 entities
+1 items registered
+-----------------------------------
+-----------------------------------
+Sending heartbeat to dpmaster.deathmask.net
+Hitch warning: 2732 msec frame time
+Sending heartbeat to dpmaster.deathmask.net
+broadcast: print "Timelimit hit.\n"
+Exit: Timelimit hit.
+Sending heartbeat to dpmaster.deathmask.net
+Mapname in mappool: dm6ish
+Mapname in mappool: oa_dm7
+Mapname in mappool: ce1m7
+Mapname in mappool: oa_koth2
+Mapname in mappool: sleekgrinder
+Mapname in mappool: oa_shouse
+Mapname in mappool: czest1tourney
+Mapname in mappool: hctf1
+Mapname in mappool: speedyctf
+Mapname in mappool: aggressor
+Mapname in mappool: oasago2
+Mapname in mappool: pxlfan
+Mapname in mappool: bubctf1
+Mapname in mappool: oa_shine
+Mapname in mappool: letgo_02
+Mapname in mappool: suspended
+Mapname in mappool: pul1ctf
+Mapname in mappool: wrackdm17
+Mapname in mappool: ps37ctf3
+Mapname in mappool: czest1tourney
+Mapname in mappool: letgo_01
+Mapname in mappool: oa_dm5
+Mapname in mappool: ctf_gate1
+Mapname in mappool: oa_rpg3dm2
+Mapname in mappool: am_thornish
+Mapname in mappool: oa_shouse
+Mapname in mappool: oa_rpg3dm2
+Mapname in mappool: am_thornish
+Mapname in mappool: oa_thor
+Picked map number 27 - am_thornish
+==== ShutdownGame ====
+ShutdownGame:
+------------------------------------------------------------
+------ Server Initialization ------
+Server: am_thornish
+Hunk_Clear: reset the hunk ok
+----- FS_Startup -----
+Current search path:
+/home/openarena//.openarena/baseoa
+./baseoa/X3map05.pk3 (71 files)
+./baseoa/stchctf9a.pk3 (70 files)
+./baseoa/speedyctf.pk3 (73 files)
+./baseoa/Q3floGGer1.pk3 (114 files)
+./baseoa/q3ctfvoy.pk3 (89 files)
+./baseoa/ps9ctf.pk3 (11 files)
+./baseoa/ps5ctf.pk3 (11 files)
+./baseoa/ps37ctf3.pk3 (11 files)
+./baseoa/pak6-patch088.pk3 (711 files)
+./baseoa/pak6-patch085.pk3 (559 files)
+./baseoa/pak6-misc.pk3 (229 files)
+./baseoa/pak5-TA.pk3 (139 files)
+./baseoa/pak4-textures.pk3 (1753 files)
+./baseoa/pak2-players.pk3 (669 files)
+./baseoa/pak2-players-mature.pk3 (231 files)
+./baseoa/pak1-maps.pk3 (100 files)
+./baseoa/pak0.pk3 (1042 files)
+./baseoa/map_cpmctf2.pk3 (57 files)
+./baseoa/LetGo_q3a.pk3 (71 files)
+./baseoa/hctf3.pk3 (43 files)
+./baseoa/hal_palindrome.pk3 (76 files)
+./baseoa/ctf_spunky1.pk3 (22 files)
+./baseoa/ctctf.pk3 (251 files)
+./baseoa/ColdWarCTF.pk3 (101 files)
+./baseoa/bubctf1.pk3 (72 files)
+./baseoa/brickyard.pk3 (90 files)
+./baseoa/17+ctf.pk3 (72 files)
+./baseoa
+
+handle 1: qconsole.log
+----------------------
+6738 files in pk3 files
+Loading vm file vm/qagame.qvm...
+File "vm/qagame.qvm" found in "./baseoa/pak6-patch088.pk3"
+...which has vmMagic VM_MAGIC_VER2
+Loading 1590 jump table targets
+VM file qagame compiled to 3770207 bytes of code (0x7f988312a000 - 0x7f98834c275f)
+compilation took 2.567129 seconds
+qagame loaded in 3012256 bytes on the hunk
+------- Game Initialization -------
+gamename: baseoa
+gamedate: Jan 28 2012
+------------------------------------------------------------
+InitGame: \g_gametype\10\dmflags\0\fraglimit\5\timelimit\10\sv_privateClients\0\sv_hostname\OpServices OpenArena DM Server\sv_maxclients\20\sv_minRate\0\sv_maxRate\222000\sv_minPing\0\sv_maxPing\400\sv_floodProtect\1\sv_allowDownload\1\sv_master1\dpmaster.deathmask.net\capturelimit\5\g_delagHitscan\1\g_needpass\0\g_allowvote\0\g_instantgib\1\g_maxGameClients\0\videoflags\7\g_doWarmup\0\g_voteGametypes\/0/1/3/4/5/6/7/8/9/10/11/12/\g_voteMaxTimelimit\1000\g_voteMinTimelimit\0\g_voteMaxFraglimit\0\g_voteMinFraglimit\0\elimination_roundtime\120\g_lms_mode\0\version\ioq3+oa 1.36_SVN1910M linux-x86_64 Dec 25 2011\protocol\71\mapname\am_thornish\.Admin\Any people who work's on Opservices\.email\webmaster@opservices.com\.www\http://ns3.opservices.com/ren/openarena.tgz\gamename\baseoa\elimflags\0\voteflags\767\g_obeliskRespawnDelay\10\g_enableDust\0\g_enableBreath\0\g_rockets\0\g_altExcellent\0\g_timestamp\2020-03-12 03:13:30
+Info: ServerInfo length: 920 of 1024
+^3!readconfig: ^7could not open admin config file admin.dat
+Sprees/Kills: loaded 1 killing sprees, 0 death sprees, and 0 multikills.
+5 teams with 10 entities
+1 items registered
+-----------------------------------
+-----------------------------------
+Sending heartbeat to dpmaster.deathmask.net
+Hitch warning: 2738 msec frame time
+Sending heartbeat to dpmaster.deathmask.net
+broadcast: print "Timelimit hit.\n"
+Exit: Timelimit hit.
+Sending heartbeat to dpmaster.deathmask.net
+Mapname in mappool: dm6ish
+Mapname in mappool: oa_dm7
+Mapname in mappool: ce1m7
+Mapname in mappool: oa_koth2
+Mapname in mappool: sleekgrinder
+Mapname in mappool: oa_shouse
+Mapname in mappool: czest1tourney
+Mapname in mappool: hctf1
+Mapname in mappool: speedyctf
+Mapname in mappool: aggressor
+Mapname in mappool: oasago2
+Mapname in mappool: pxlfan
+Mapname in mappool: bubctf1
+Mapname in mappool: oa_shine
+Mapname in mappool: letgo_02
+Mapname in mappool: suspended
+Mapname in mappool: pul1ctf
+Mapname in mappool: wrackdm17
+Mapname in mappool: ps37ctf3
+Mapname in mappool: czest1tourney
+Mapname in mappool: letgo_01
+Mapname in mappool: oa_dm5
+Mapname in mappool: ctf_gate1
+Mapname in mappool: oa_rpg3dm2
+Mapname in mappool: am_thornish
+Mapname in mappool: oa_shouse
+Mapname in mappool: oa_rpg3dm2
+Mapname in mappool: am_thornish
+Mapname in mappool: oa_thor
+Picked map number 4 - sleekgrinder
+==== ShutdownGame ====
+ShutdownGame:
+------------------------------------------------------------
+------ Server Initialization ------
+Server: sleekgrinder
+Hunk_Clear: reset the hunk ok
+----- FS_Startup -----
+Current search path:
+/home/openarena//.openarena/baseoa
+./baseoa/X3map05.pk3 (71 files)
+./baseoa/stchctf9a.pk3 (70 files)
+./baseoa/speedyctf.pk3 (73 files)
+./baseoa/Q3floGGer1.pk3 (114 files)
+./baseoa/q3ctfvoy.pk3 (89 files)
+./baseoa/ps9ctf.pk3 (11 files)
+./baseoa/ps5ctf.pk3 (11 files)
+./baseoa/ps37ctf3.pk3 (11 files)
+./baseoa/pak6-patch088.pk3 (711 files)
+./baseoa/pak6-patch085.pk3 (559 files)
+./baseoa/pak6-misc.pk3 (229 files)
+./baseoa/pak5-TA.pk3 (139 files)
+./baseoa/pak4-textures.pk3 (1753 files)
+./baseoa/pak2-players.pk3 (669 files)
+./baseoa/pak2-players-mature.pk3 (231 files)
+./baseoa/pak1-maps.pk3 (100 files)
+./baseoa/pak0.pk3 (1042 files)
+./baseoa/map_cpmctf2.pk3 (57 files)
+./baseoa/LetGo_q3a.pk3 (71 files)
+./baseoa/hctf3.pk3 (43 files)
+./baseoa/hal_palindrome.pk3 (76 files)
+./baseoa/ctf_spunky1.pk3 (22 files)
+./baseoa/ctctf.pk3 (251 files)
+./baseoa/ColdWarCTF.pk3 (101 files)
+./baseoa/bubctf1.pk3 (72 files)
+./baseoa/brickyard.pk3 (90 files)
+./baseoa/17+ctf.pk3 (72 files)
+./baseoa
+
+handle 1: qconsole.log
+----------------------
+6738 files in pk3 files
+Loading vm file vm/qagame.qvm...
+File "vm/qagame.qvm" found in "./baseoa/pak6-patch088.pk3"
+...which has vmMagic VM_MAGIC_VER2
+Loading 1590 jump table targets
+VM file qagame compiled to 3770207 bytes of code (0x7f988312a000 - 0x7f98834c275f)
+compilation took 2.571521 seconds
+qagame loaded in 3012256 bytes on the hunk
+------- Game Initialization -------
+gamename: baseoa
+gamedate: Jan 28 2012
+------------------------------------------------------------
+InitGame: \g_gametype\10\dmflags\0\fraglimit\5\timelimit\10\sv_privateClients\0\sv_hostname\OpServices OpenArena DM Server\sv_maxclients\20\sv_minRate\0\sv_maxRate\222000\sv_minPing\0\sv_maxPing\400\sv_floodProtect\1\sv_allowDownload\1\sv_master1\dpmaster.deathmask.net\capturelimit\5\g_delagHitscan\1\g_needpass\0\g_allowvote\0\g_instantgib\1\g_maxGameClients\0\videoflags\7\g_doWarmup\0\g_voteGametypes\/0/1/3/4/5/6/7/8/9/10/11/12/\g_voteMaxTimelimit\1000\g_voteMinTimelimit\0\g_voteMaxFraglimit\0\g_voteMinFraglimit\0\elimination_roundtime\120\g_lms_mode\0\version\ioq3+oa 1.36_SVN1910M linux-x86_64 Dec 25 2011\protocol\71\mapname\sleekgrinder\.Admin\Any people who work's on Opservices\.email\webmaster@opservices.com\.www\http://ns3.opservices.com/ren/openarena.tgz\gamename\baseoa\elimflags\0\voteflags\767\g_obeliskRespawnDelay\10\g_enableDust\0\g_enableBreath\0\g_rockets\0\g_altExcellent\0\g_timestamp\2020-03-12 03:23:46
+Info: ServerInfo length: 921 of 1024
+^3!readconfig: ^7could not open admin config file admin.dat
+Sprees/Kills: loaded 1 killing sprees, 0 death sprees, and 0 multikills.
+1 teams with 2 entities
+1 items registered
+-----------------------------------
+FinishSpawningItem: item_health startsolid at (1064 -376 -72)
+-----------------------------------
+Sending heartbeat to dpmaster.deathmask.net
+Hitch warning: 2748 msec frame time
+Sending heartbeat to dpmaster.deathmask.net
+broadcast: print "Timelimit hit.\n"
+Exit: Timelimit hit.
+Sending heartbeat to dpmaster.deathmask.net
+Mapname in mappool: dm6ish
+Mapname in mappool: oa_dm7
+Mapname in mappool: ce1m7
+Mapname in mappool: oa_koth2
+Mapname in mappool: sleekgrinder
+Mapname in mappool: oa_shouse
+Mapname in mappool: czest1tourney
+Mapname in mappool: hctf1
+Mapname in mappool: speedyctf
+Mapname in mappool: aggressor
+Mapname in mappool: oasago2
+Mapname in mappool: pxlfan
+Mapname in mappool: bubctf1
+Mapname in mappool: oa_shine
+Mapname in mappool: letgo_02
+Mapname in mappool: suspended
+Mapname in mappool: pul1ctf
+Mapname in mappool: wrackdm17
+Mapname in mappool: ps37ctf3
+Mapname in mappool: czest1tourney
+Mapname in mappool: letgo_01
+Mapname in mappool: oa_dm5
+Mapname in mappool: ctf_gate1
+Mapname in mappool: oa_rpg3dm2
+Mapname in mappool: am_thornish
+Mapname in mappool: oa_shouse
+Mapname in mappool: oa_rpg3dm2
+Mapname in mappool: am_thornish
+Mapname in mappool: oa_thor
+Picked map number 28 - oa_thor
+==== ShutdownGame ====
+ShutdownGame:
+------------------------------------------------------------
+------ Server Initialization ------
+Server: oa_thor
+Hunk_Clear: reset the hunk ok
+----- FS_Startup -----
+Current search path:
+/home/openarena//.openarena/baseoa
+./baseoa/X3map05.pk3 (71 files)
+./baseoa/stchctf9a.pk3 (70 files)
+./baseoa/speedyctf.pk3 (73 files)
+./baseoa/Q3floGGer1.pk3 (114 files)
+./baseoa/q3ctfvoy.pk3 (89 files)
+./baseoa/ps9ctf.pk3 (11 files)
+./baseoa/ps5ctf.pk3 (11 files)
+./baseoa/ps37ctf3.pk3 (11 files)
+./baseoa/pak6-patch088.pk3 (711 files)
+./baseoa/pak6-patch085.pk3 (559 files)
+./baseoa/pak6-misc.pk3 (229 files)
+./baseoa/pak5-TA.pk3 (139 files)
+./baseoa/pak4-textures.pk3 (1753 files)
+./baseoa/pak2-players.pk3 (669 files)
+./baseoa/pak2-players-mature.pk3 (231 files)
+./baseoa/pak1-maps.pk3 (100 files)
+./baseoa/pak0.pk3 (1042 files)
+./baseoa/map_cpmctf2.pk3 (57 files)
+./baseoa/LetGo_q3a.pk3 (71 files)
+./baseoa/hctf3.pk3 (43 files)
+./baseoa/hal_palindrome.pk3 (76 files)
+./baseoa/ctf_spunky1.pk3 (22 files)
+./baseoa/ctctf.pk3 (251 files)
+./baseoa/ColdWarCTF.pk3 (101 files)
+./baseoa/bubctf1.pk3 (72 files)
+./baseoa/brickyard.pk3 (90 files)
+./baseoa/17+ctf.pk3 (72 files)
+./baseoa
+
+handle 1: qconsole.log
+----------------------
+6738 files in pk3 files
+Loading vm file vm/qagame.qvm...
+File "vm/qagame.qvm" found in "./baseoa/pak6-patch088.pk3"
+...which has vmMagic VM_MAGIC_VER2
+Loading 1590 jump table targets
+VM file qagame compiled to 3770207 bytes of code (0x7f988312a000 - 0x7f98834c275f)
+compilation took 2.550140 seconds
+qagame loaded in 3012256 bytes on the hunk
+------- Game Initialization -------
+gamename: baseoa
+gamedate: Jan 28 2012
+------------------------------------------------------------
+InitGame: \g_gametype\10\dmflags\0\fraglimit\5\timelimit\10\sv_privateClients\0\sv_hostname\OpServices OpenArena DM Server\sv_maxclients\20\sv_minRate\0\sv_maxRate\222000\sv_minPing\0\sv_maxPing\400\sv_floodProtect\1\sv_allowDownload\1\sv_master1\dpmaster.deathmask.net\capturelimit\5\g_delagHitscan\1\g_needpass\0\g_allowvote\0\g_instantgib\1\g_maxGameClients\0\videoflags\7\g_doWarmup\0\g_voteGametypes\/0/1/3/4/5/6/7/8/9/10/11/12/\g_voteMaxTimelimit\1000\g_voteMinTimelimit\0\g_voteMaxFraglimit\0\g_voteMinFraglimit\0\elimination_roundtime\120\g_lms_mode\0\version\ioq3+oa 1.36_SVN1910M linux-x86_64 Dec 25 2011\protocol\71\mapname\oa_thor\.Admin\Any people who work's on Opservices\.email\webmaster@opservices.com\.www\http://ns3.opservices.com/ren/openarena.tgz\gamename\baseoa\elimflags\0\voteflags\767\g_obeliskRespawnDelay\10\g_enableDust\0\g_enableBreath\0\g_rockets\0\g_altExcellent\0\g_timestamp\2020-03-12 03:34:02
+Info: ServerInfo length: 916 of 1024
+^3!readconfig: ^7could not open admin config file admin.dat
+Sprees/Kills: loaded 1 killing sprees, 0 death sprees, and 0 multikills.
+0 teams with 0 entities
+1 items registered
+-----------------------------------
+-----------------------------------
+Sending heartbeat to dpmaster.deathmask.net
+Hitch warning: 2794 msec frame time
+Sending heartbeat to dpmaster.deathmask.net
+broadcast: print "Timelimit hit.\n"
+Exit: Timelimit hit.
+Sending heartbeat to dpmaster.deathmask.net
+Mapname in mappool: dm6ish
+Mapname in mappool: oa_dm7
+Mapname in mappool: ce1m7
+Mapname in mappool: oa_koth2
+Mapname in mappool: sleekgrinder
+Mapname in mappool: oa_shouse
+Mapname in mappool: czest1tourney
+Mapname in mappool: hctf1
+Mapname in mappool: speedyctf
+Mapname in mappool: aggressor
+Mapname in mappool: oasago2
+Mapname in mappool: pxlfan
+Mapname in mappool: bubctf1
+Mapname in mappool: oa_shine
+Mapname in mappool: letgo_02
+Mapname in mappool: suspended
+Mapname in mappool: pul1ctf
+Mapname in mappool: wrackdm17
+Mapname in mappool: ps37ctf3
+Mapname in mappool: czest1tourney
+Mapname in mappool: letgo_01
+Mapname in mappool: oa_dm5
+Mapname in mappool: ctf_gate1
+Mapname in mappool: oa_rpg3dm2
+Mapname in mappool: am_thornish
+Mapname in mappool: oa_shouse
+Mapname in mappool: oa_rpg3dm2
+Mapname in mappool: am_thornish
+Mapname in mappool: oa_thor
+Picked map number 16 - pul1ctf
+==== ShutdownGame ====
+ShutdownGame:
+------------------------------------------------------------
+------ Server Initialization ------
+Server: pul1ctf
+Hunk_Clear: reset the hunk ok
+----- FS_Startup -----
+Current search path:
+/home/openarena//.openarena/baseoa
+./baseoa/X3map05.pk3 (71 files)
+./baseoa/stchctf9a.pk3 (70 files)
+./baseoa/speedyctf.pk3 (73 files)
+./baseoa/Q3floGGer1.pk3 (114 files)
+./baseoa/q3ctfvoy.pk3 (89 files)
+./baseoa/ps9ctf.pk3 (11 files)
+./baseoa/ps5ctf.pk3 (11 files)
+./baseoa/ps37ctf3.pk3 (11 files)
+./baseoa/pak6-patch088.pk3 (711 files)
+./baseoa/pak6-patch085.pk3 (559 files)
+./baseoa/pak6-misc.pk3 (229 files)
+./baseoa/pak5-TA.pk3 (139 files)
+./baseoa/pak4-textures.pk3 (1753 files)
+./baseoa/pak2-players.pk3 (669 files)
+./baseoa/pak2-players-mature.pk3 (231 files)
+./baseoa/pak1-maps.pk3 (100 files)
+./baseoa/pak0.pk3 (1042 files)
+./baseoa/map_cpmctf2.pk3 (57 files)
+./baseoa/LetGo_q3a.pk3 (71 files)
+./baseoa/hctf3.pk3 (43 files)
+./baseoa/hal_palindrome.pk3 (76 files)
+./baseoa/ctf_spunky1.pk3 (22 files)
+./baseoa/ctctf.pk3 (251 files)
+./baseoa/ColdWarCTF.pk3 (101 files)
+./baseoa/bubctf1.pk3 (72 files)
+./baseoa/brickyard.pk3 (90 files)
+./baseoa/17+ctf.pk3 (72 files)
+./baseoa
+
+handle 1: qconsole.log
+----------------------
+6738 files in pk3 files
+Loading vm file vm/qagame.qvm...
+File "vm/qagame.qvm" found in "./baseoa/pak6-patch088.pk3"
+...which has vmMagic VM_MAGIC_VER2
+Loading 1590 jump table targets
+VM file qagame compiled to 3770207 bytes of code (0x7f988312a000 - 0x7f98834c275f)
+compilation took 2.576692 seconds
+qagame loaded in 3012256 bytes on the hunk
+------- Game Initialization -------
+gamename: baseoa
+gamedate: Jan 28 2012
+------------------------------------------------------------
+InitGame: \g_gametype\10\dmflags\0\fraglimit\5\timelimit\10\sv_privateClients\0\sv_hostname\OpServices OpenArena DM Server\sv_maxclients\20\sv_minRate\0\sv_maxRate\222000\sv_minPing\0\sv_maxPing\400\sv_floodProtect\1\sv_allowDownload\1\sv_master1\dpmaster.deathmask.net\capturelimit\5\g_delagHitscan\1\g_needpass\0\g_allowvote\0\g_instantgib\1\g_maxGameClients\0\videoflags\7\g_doWarmup\0\g_voteGametypes\/0/1/3/4/5/6/7/8/9/10/11/12/\g_voteMaxTimelimit\1000\g_voteMinTimelimit\0\g_voteMaxFraglimit\0\g_voteMinFraglimit\0\elimination_roundtime\120\g_lms_mode\0\version\ioq3+oa 1.36_SVN1910M linux-x86_64 Dec 25 2011\protocol\71\mapname\pul1ctf\.Admin\Any people who work's on Opservices\.email\webmaster@opservices.com\.www\http://ns3.opservices.com/ren/openarena.tgz\gamename\baseoa\elimflags\0\voteflags\767\g_obeliskRespawnDelay\10\g_enableDust\0\g_enableBreath\0\g_rockets\0\g_altExcellent\0\g_timestamp\2020-03-12 03:44:17
+Info: ServerInfo length: 916 of 1024
+^3!readconfig: ^7could not open admin config file admin.dat
+Sprees/Kills: loaded 1 killing sprees, 0 death sprees, and 0 multikills.
+0 teams with 0 entities
+1 items registered
+-----------------------------------
+-----------------------------------
+Sending heartbeat to dpmaster.deathmask.net
+Hitch warning: 2755 msec frame time
+Sending heartbeat to dpmaster.deathmask.net
+broadcast: print "Timelimit hit.\n"
+Exit: Timelimit hit.
+Sending heartbeat to dpmaster.deathmask.net
+Mapname in mappool: dm6ish
+Mapname in mappool: oa_dm7
+Mapname in mappool: ce1m7
+Mapname in mappool: oa_koth2
+Mapname in mappool: sleekgrinder
+Mapname in mappool: oa_shouse
+Mapname in mappool: czest1tourney
+Mapname in mappool: hctf1
+Mapname in mappool: speedyctf
+Mapname in mappool: aggressor
+Mapname in mappool: oasago2
+Mapname in mappool: pxlfan
+Mapname in mappool: bubctf1
+Mapname in mappool: oa_shine
+Mapname in mappool: letgo_02
+Mapname in mappool: suspended
+Mapname in mappool: pul1ctf
+Mapname in mappool: wrackdm17
+Mapname in mappool: ps37ctf3
+Mapname in mappool: czest1tourney
+Mapname in mappool: letgo_01
+Mapname in mappool: oa_dm5
+Mapname in mappool: ctf_gate1
+Mapname in mappool: oa_rpg3dm2
+Mapname in mappool: am_thornish
+Mapname in mappool: oa_shouse
+Mapname in mappool: oa_rpg3dm2
+Mapname in mappool: am_thornish
+Mapname in mappool: oa_thor
+Picked map number 15 - suspended
+==== ShutdownGame ====
+ShutdownGame:
+------------------------------------------------------------
+------ Server Initialization ------
+Server: suspended
+Hunk_Clear: reset the hunk ok
+----- FS_Startup -----
+Current search path:
+/home/openarena//.openarena/baseoa
+./baseoa/X3map05.pk3 (71 files)
+./baseoa/stchctf9a.pk3 (70 files)
+./baseoa/speedyctf.pk3 (73 files)
+./baseoa/Q3floGGer1.pk3 (114 files)
+./baseoa/q3ctfvoy.pk3 (89 files)
+./baseoa/ps9ctf.pk3 (11 files)
+./baseoa/ps5ctf.pk3 (11 files)
+./baseoa/ps37ctf3.pk3 (11 files)
+./baseoa/pak6-patch088.pk3 (711 files)
+./baseoa/pak6-patch085.pk3 (559 files)
+./baseoa/pak6-misc.pk3 (229 files)
+./baseoa/pak5-TA.pk3 (139 files)
+./baseoa/pak4-textures.pk3 (1753 files)
+./baseoa/pak2-players.pk3 (669 files)
+./baseoa/pak2-players-mature.pk3 (231 files)
+./baseoa/pak1-maps.pk3 (100 files)
+./baseoa/pak0.pk3 (1042 files)
+./baseoa/map_cpmctf2.pk3 (57 files)
+./baseoa/LetGo_q3a.pk3 (71 files)
+./baseoa/hctf3.pk3 (43 files)
+./baseoa/hal_palindrome.pk3 (76 files)
+./baseoa/ctf_spunky1.pk3 (22 files)
+./baseoa/ctctf.pk3 (251 files)
+./baseoa/ColdWarCTF.pk3 (101 files)
+./baseoa/bubctf1.pk3 (72 files)
+./baseoa/brickyard.pk3 (90 files)
+./baseoa/17+ctf.pk3 (72 files)
+./baseoa
+
+handle 1: qconsole.log
+----------------------
+6738 files in pk3 files
+Loading vm file vm/qagame.qvm...
+File "vm/qagame.qvm" found in "./baseoa/pak6-patch088.pk3"
+...which has vmMagic VM_MAGIC_VER2
+Loading 1590 jump table targets
+VM file qagame compiled to 3770207 bytes of code (0x7f988312a000 - 0x7f98834c275f)
+compilation took 2.544205 seconds
+qagame loaded in 3012256 bytes on the hunk
+------- Game Initialization -------
+gamename: baseoa
+gamedate: Jan 28 2012
+------------------------------------------------------------
+InitGame: \g_gametype\10\dmflags\0\fraglimit\5\timelimit\10\sv_privateClients\0\sv_hostname\OpServices OpenArena DM Server\sv_maxclients\20\sv_minRate\0\sv_maxRate\222000\sv_minPing\0\sv_maxPing\400\sv_floodProtect\1\sv_allowDownload\1\sv_master1\dpmaster.deathmask.net\capturelimit\5\g_delagHitscan\1\g_needpass\0\g_allowvote\0\g_instantgib\1\g_maxGameClients\0\videoflags\7\g_doWarmup\0\g_voteGametypes\/0/1/3/4/5/6/7/8/9/10/11/12/\g_voteMaxTimelimit\1000\g_voteMinTimelimit\0\g_voteMaxFraglimit\0\g_voteMinFraglimit\0\elimination_roundtime\120\g_lms_mode\0\version\ioq3+oa 1.36_SVN1910M linux-x86_64 Dec 25 2011\protocol\71\mapname\suspended\.Admin\Any people who work's on Opservices\.email\webmaster@opservices.com\.www\http://ns3.opservices.com/ren/openarena.tgz\gamename\baseoa\elimflags\0\voteflags\767\g_obeliskRespawnDelay\10\g_enableDust\0\g_enableBreath\0\g_rockets\0\g_altExcellent\0\g_timestamp\2020-03-12 03:54:33
+Info: ServerInfo length: 918 of 1024
+^3!readconfig: ^7could not open admin config file admin.dat
+Sprees/Kills: loaded 1 killing sprees, 0 death sprees, and 0 multikills.
+0 teams with 0 entities
+1 items registered
+-----------------------------------
+-----------------------------------
+Sending heartbeat to dpmaster.deathmask.net
+Hitch warning: 2763 msec frame time
+Sending heartbeat to dpmaster.deathmask.net
+broadcast: print "Timelimit hit.\n"
+Exit: Timelimit hit.
+Sending heartbeat to dpmaster.deathmask.net
+Mapname in mappool: dm6ish
+Mapname in mappool: oa_dm7
+Mapname in mappool: ce1m7
+Mapname in mappool: oa_koth2
+Mapname in mappool: sleekgrinder
+Mapname in mappool: oa_shouse
+Mapname in mappool: czest1tourney
+Mapname in mappool: hctf1
+Mapname in mappool: speedyctf
+Mapname in mappool: aggressor
+Mapname in mappool: oasago2
+Mapname in mappool: pxlfan
+Mapname in mappool: bubctf1
+Mapname in mappool: oa_shine
+Mapname in mappool: letgo_02
+Mapname in mappool: suspended
+Mapname in mappool: pul1ctf
+Mapname in mappool: wrackdm17
+Mapname in mappool: ps37ctf3
+Mapname in mappool: czest1tourney
+Mapname in mappool: letgo_01
+Mapname in mappool: oa_dm5
+Mapname in mappool: ctf_gate1
+Mapname in mappool: oa_rpg3dm2
+Mapname in mappool: am_thornish
+Mapname in mappool: oa_shouse
+Mapname in mappool: oa_rpg3dm2
+Mapname in mappool: am_thornish
+Mapname in mappool: oa_thor
+Picked map number 8 - speedyctf
+==== ShutdownGame ====
+ShutdownGame:
+------------------------------------------------------------
+------ Server Initialization ------
+Server: speedyctf
+Hunk_Clear: reset the hunk ok
+----- FS_Startup -----
+Current search path:
+/home/openarena//.openarena/baseoa
+./baseoa/X3map05.pk3 (71 files)
+./baseoa/stchctf9a.pk3 (70 files)
+./baseoa/speedyctf.pk3 (73 files)
+./baseoa/Q3floGGer1.pk3 (114 files)
+./baseoa/q3ctfvoy.pk3 (89 files)
+./baseoa/ps9ctf.pk3 (11 files)
+./baseoa/ps5ctf.pk3 (11 files)
+./baseoa/ps37ctf3.pk3 (11 files)
+./baseoa/pak6-patch088.pk3 (711 files)
+./baseoa/pak6-patch085.pk3 (559 files)
+./baseoa/pak6-misc.pk3 (229 files)
+./baseoa/pak5-TA.pk3 (139 files)
+./baseoa/pak4-textures.pk3 (1753 files)
+./baseoa/pak2-players.pk3 (669 files)
+./baseoa/pak2-players-mature.pk3 (231 files)
+./baseoa/pak1-maps.pk3 (100 files)
+./baseoa/pak0.pk3 (1042 files)
+./baseoa/map_cpmctf2.pk3 (57 files)
+./baseoa/LetGo_q3a.pk3 (71 files)
+./baseoa/hctf3.pk3 (43 files)
+./baseoa/hal_palindrome.pk3 (76 files)
+./baseoa/ctf_spunky1.pk3 (22 files)
+./baseoa/ctctf.pk3 (251 files)
+./baseoa/ColdWarCTF.pk3 (101 files)
+./baseoa/bubctf1.pk3 (72 files)
+./baseoa/brickyard.pk3 (90 files)
+./baseoa/17+ctf.pk3 (72 files)
+./baseoa
+
+handle 1: qconsole.log
+----------------------
+6738 files in pk3 files
+Loading vm file vm/qagame.qvm...
+File "vm/qagame.qvm" found in "./baseoa/pak6-patch088.pk3"
+...which has vmMagic VM_MAGIC_VER2
+Loading 1590 jump table targets
+VM file qagame compiled to 3770207 bytes of code (0x7f988312a000 - 0x7f98834c275f)
+compilation took 2.577026 seconds
+qagame loaded in 3012256 bytes on the hunk
+------- Game Initialization -------
+gamename: baseoa
+gamedate: Jan 28 2012
+------------------------------------------------------------
+InitGame: \g_gametype\10\dmflags\0\fraglimit\5\timelimit\10\sv_privateClients\0\sv_hostname\OpServices OpenArena DM Server\sv_maxclients\20\sv_minRate\0\sv_maxRate\222000\sv_minPing\0\sv_maxPing\400\sv_floodProtect\1\sv_allowDownload\1\sv_master1\dpmaster.deathmask.net\capturelimit\5\g_delagHitscan\1\g_needpass\0\g_allowvote\0\g_instantgib\1\g_maxGameClients\0\videoflags\7\g_doWarmup\0\g_voteGametypes\/0/1/3/4/5/6/7/8/9/10/11/12/\g_voteMaxTimelimit\1000\g_voteMinTimelimit\0\g_voteMaxFraglimit\0\g_voteMinFraglimit\0\elimination_roundtime\120\g_lms_mode\0\version\ioq3+oa 1.36_SVN1910M linux-x86_64 Dec 25 2011\protocol\71\mapname\speedyctf\.Admin\Any people who work's on Opservices\.email\webmaster@opservices.com\.www\http://ns3.opservices.com/ren/openarena.tgz\gamename\baseoa\elimflags\0\voteflags\767\g_obeliskRespawnDelay\10\g_enableDust\0\g_enableBreath\0\g_rockets\0\g_altExcellent\0\g_timestamp\2020-03-12 04:04:48
+Info: ServerInfo length: 918 of 1024
+^3!readconfig: ^7could not open admin config file admin.dat
+Sprees/Kills: loaded 1 killing sprees, 0 death sprees, and 0 multikills.
+0 teams with 0 entities
+1 items registered
+-----------------------------------
+-----------------------------------
+Sending heartbeat to dpmaster.deathmask.net
+Hitch warning: 2723 msec frame time
+Sending heartbeat to dpmaster.deathmask.net
+broadcast: print "Timelimit hit.\n"
+Exit: Timelimit hit.
+Sending heartbeat to dpmaster.deathmask.net

@@ -1,0 +1,15 @@
+{
+	"CFBundleDevelopmentRegion" = English;
+	CFBundleExecutable = "openarena.ub";
+	"CFBundleGetInfoString" = "OpenArena 0.8.8 r28";
+	CFBundleIconFile = "ioquake3.icns";
+	CFBundleIdentifier = "ws.openarena.OpenArena";
+	"CFBundleInfoDictionaryVersion" = "6.0";
+	CFBundleName = OpenArena;
+	CFBundlePackageType = APPL;
+	"CFBundleShortVersionString" = "0.8.8r28";
+	CFBundleSignature = APPLIOOA;
+	CFBundleVersion = "0.8.8r28";
+	NSExtensions = {};
+	NSPrincipalClass = NSApplication;
+}

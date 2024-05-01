@@ -1,0 +1,112 @@
+ioq3+oa 1.36_SVN1910M linux-x86_64 Dec 25 2011
+----- FS_Startup -----
+Current search path:
+/home/openarena//.openarena/baseoa
+./baseoa/X3map05.pk3 (71 files)
+./baseoa/stchctf9a.pk3 (70 files)
+./baseoa/speedyctf.pk3 (73 files)
+./baseoa/Q3floGGer1.pk3 (114 files)
+./baseoa/q3ctfvoy.pk3 (89 files)
+./baseoa/ps9ctf.pk3 (11 files)
+./baseoa/ps5ctf.pk3 (11 files)
+./baseoa/ps37ctf3.pk3 (11 files)
+./baseoa/pak6-patch088.pk3 (711 files)
+./baseoa/pak6-patch085.pk3 (559 files)
+./baseoa/pak6-misc.pk3 (229 files)
+./baseoa/pak5-TA.pk3 (139 files)
+./baseoa/pak4-textures.pk3 (1753 files)
+./baseoa/pak2-players.pk3 (669 files)
+./baseoa/pak2-players-mature.pk3 (231 files)
+./baseoa/pak1-maps.pk3 (100 files)
+./baseoa/pak0.pk3 (1042 files)
+./baseoa/map_cpmctf2.pk3 (57 files)
+./baseoa/LetGo_q3a.pk3 (71 files)
+./baseoa/hctf3.pk3 (43 files)
+./baseoa/hal_palindrome.pk3 (76 files)
+./baseoa/ctf_spunky1.pk3 (22 files)
+./baseoa/ctctf.pk3 (251 files)
+./baseoa/ColdWarCTF.pk3 (101 files)
+./baseoa/bubctf1.pk3 (72 files)
+./baseoa/brickyard.pk3 (90 files)
+./baseoa/17+ctf.pk3 (72 files)
+./baseoa
+
+----------------------
+6738 files in pk3 files
+execing default.cfg
+execing q3config_server.cfg
+couldn't exec autoexec.cfg
+Hunk_Clear: reset the hunk ok
+--- Common Initialization Complete ---
+IP: 127.0.0.1
+IP: 192.168.10.10
+IP6: ::1
+IP6: fe80::f455:95ff:fe7a:1dfb%eth0
+Opening IP socket: 0.0.0.0:27961
+tty console mode disabled
+execing serverdm.cfg
+g_gametype will be changed upon restarting.
+------ Server Initialization ------
+logfile opened on Mon Jan 27 15:15:20 2020
+
+Server: speedyctf
+Hunk_Clear: reset the hunk ok
+----- FS_Startup -----
+Current search path:
+/home/openarena//.openarena/baseoa
+./baseoa/X3map05.pk3 (71 files)
+./baseoa/stchctf9a.pk3 (70 files)
+./baseoa/speedyctf.pk3 (73 files)
+./baseoa/Q3floGGer1.pk3 (114 files)
+./baseoa/q3ctfvoy.pk3 (89 files)
+./baseoa/ps9ctf.pk3 (11 files)
+./baseoa/ps5ctf.pk3 (11 files)
+./baseoa/ps37ctf3.pk3 (11 files)
+./baseoa/pak6-patch088.pk3 (711 files)
+./baseoa/pak6-patch085.pk3 (559 files)
+./baseoa/pak6-misc.pk3 (229 files)
+./baseoa/pak5-TA.pk3 (139 files)
+./baseoa/pak4-textures.pk3 (1753 files)
+./baseoa/pak2-players.pk3 (669 files)
+./baseoa/pak2-players-mature.pk3 (231 files)
+./baseoa/pak1-maps.pk3 (100 files)
+./baseoa/pak0.pk3 (1042 files)
+./baseoa/map_cpmctf2.pk3 (57 files)
+./baseoa/LetGo_q3a.pk3 (71 files)
+./baseoa/hctf3.pk3 (43 files)
+./baseoa/hal_palindrome.pk3 (76 files)
+./baseoa/ctf_spunky1.pk3 (22 files)
+./baseoa/ctctf.pk3 (251 files)
+./baseoa/ColdWarCTF.pk3 (101 files)
+./baseoa/bubctf1.pk3 (72 files)
+./baseoa/brickyard.pk3 (90 files)
+./baseoa/17+ctf.pk3 (72 files)
+./baseoa
+
+handle 1: qconsole.log
+----------------------
+6738 files in pk3 files
+Loading vm file vm/qagame.qvm...
+File "vm/qagame.qvm" found in "./baseoa/pak6-patch088.pk3"
+...which has vmMagic VM_MAGIC_VER2
+Loading 1590 jump table targets
+VM file qagame compiled to 3770207 bytes of code (0x7f64226b4000 - 0x7f6422a4c75f)
+compilation took 2.616703 seconds
+qagame loaded in 3012256 bytes on the hunk
+------- Game Initialization -------
+gamename: baseoa
+gamedate: Jan 28 2012
+------------------------------------------------------------
+InitGame: \g_gametype\10\dmflags\0\fraglimit\5\timelimit\10\sv_privateClients\0\sv_hostname\OpServices OpenArena DM Server\sv_maxclients\20\sv_minRate\0\sv_maxRate\222000\sv_minPing\0\sv_maxPing\400\sv_floodProtect\1\sv_allowDownload\1\sv_master1\dpmaster.deathmask.net\capturelimit\5\g_delagHitscan\1\g_needpass\0\g_allowvote\0\g_instantgib\1\g_maxGameClients\0\videoflags\7\g_doWarmup\0\g_voteGametypes\/0/1/3/4/5/6/7/8/9/10/11/12/\g_voteMaxTimelimit\1000\g_voteMinTimelimit\0\g_voteMaxFraglimit\0\g_voteMinFraglimit\0\elimination_roundtime\120\g_lms_mode\0\version\ioq3+oa 1.36_SVN1910M linux-x86_64 Dec 25 2011\protocol\71\mapname\speedyctf\.Admin\Any people who work's on Opservices\.email\webmaster@opservices.com\.www\http://ns3.opservices.com/ren/openarena.tgz\gamename\baseoa\elimflags\0\voteflags\0\g_obeliskRespawnDelay\10\g_enableDust\0\g_enableBreath\0\g_rockets\0\g_altExcellent\0\g_timestamp\2020-01-27 15:15:23
+Info: ServerInfo length: 916 of 1024
+Gametype changed, clearing session data.
+^3!readconfig: ^7could not open admin config file admin.dat
+Sprees/Kills: loaded 1 killing sprees, 0 death sprees, and 0 multikills.
+0 teams with 0 entities
+1 items registered
+-----------------------------------
+-----------------------------------
+Resolving dpmaster.deathmask.net (IPv4)
+dpmaster.deathmask.net resolved to 107.161.23.68:27950
+Sending heartbeat to dpmaster.deathmask.net
+Hitch warning: 2805 msec frame time
