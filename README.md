@@ -2,6 +2,9 @@
 
 Openarena docker image build
 
+   This repository can also be used to play da game, as it contains de extra levels used by the server
+and the clients for Windows, Linux and Mac X86.
+
 This is the docker build for the Openarena Server.
 
 To build it
